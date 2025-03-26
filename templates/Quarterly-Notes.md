@@ -123,7 +123,7 @@ tR += rightAngle;
 > ```tasks
 > not done
 > is not recurring
-> (path includes 10 - Daily Notes) OR (path includes 10 - Periodic Notes)
+> (path includes "10 - Daily Notes") OR (path includes "10 - Periodic Notes")
 > (heading includes Focus) AND (heading includes Goals)
 > group by function '%%' + (task.heading.includes("Yearly Focus 🔥 & Goals 🎯") ? "1" : task.heading.includes("Quarterly Focus 🔥 & Goals 🎯") ? "2" : task.heading.includes("Monthly Focus 🔥 & Goals 🎯") ? "3" : task.heading.includes("Weekly Focus 🔥 & Goals 🎯") ? "4" : task.heading.includes("Daily Focus 🔥 & Goals 🎯") ? "5" : "6") + '%%' + task.heading + " > " + task.file.filenameWithoutExtension + " > " + task.tags
 > ```
