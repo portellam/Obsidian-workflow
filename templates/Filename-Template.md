@@ -15,8 +15,8 @@ let noteTypes = [
   { format: "YYYY-MM", template: "Monthly-Notes.md" },
   { format: "YYYY-[Q]Q", template: "Quarterly-Notes.md" },
   { format: "YYYY", template: "Yearly-Notes.md" },
-  { format: "2-Areas", template: "Areas.md" },
-  { format: "0-Inbox", template: "Untitled.md" },
+  { format: "02 - Areas", template: "Areas.md" },
+  { format: "00 - Inbox", template: "Untitled.md" },
 ];
 
 for (const noteType of noteTypes) {

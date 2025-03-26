@@ -1,7 +1,7 @@
 {
   "userIllegalSymbols": [],
   "ignoredFiles": {},
-  "ignoreRegex": "_Sources|5-Templates|Passions Backlog",
+  "ignoreRegex": "_Sources|templates|Passions Backlog",
   "useFileOpenHook": false,
   "useFileSaveHook": true,
   "newHeadingStyle": "Prefix",

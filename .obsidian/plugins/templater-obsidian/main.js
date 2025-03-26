@@ -1901,7 +1901,7 @@ var FileSuggest = class extends TextInputSuggest {
       case 0:
         return this.plugin.settings.templates_folder;
       case 1:
-        return this.plugin.settings.user_scripts_folder;
+        return this.plugin.settings.userscripts_folder;
     }
   }
   get_error_msg(mode) {
@@ -1945,7 +1945,7 @@ var DEFAULT_SETTINGS = {
   auto_jump_to_cursor: false,
   enable_system_commands: false,
   shell_path: "",
-  user_scripts_folder: "",
+  userscripts_folder: "",
   enable_folder_templates: true,
   folder_templates: [{ folder: "", template: "" }],
   syntax_highlighting: true,
@@ -2215,18 +2215,18 @@ var TemplaterSettingTab = class extends import_obsidian6.PluginSettingTab {
     }), " for more information.");
     new import_obsidian6.Setting(this.containerEl).setName("Script files folder location").setDesc(desc).addSearch((cb) => {
       new FolderSuggest(cb.inputEl);
-      cb.setPlaceholder("Example: folder1/folder2").setValue(this.plugin.settings.user_scripts_folder).onChange((new_folder) => {
-        this.plugin.settings.user_scripts_folder = new_folder;
+      cb.setPlaceholder("Example: folder1/folder2").setValue(this.plugin.settings.userscripts_folder).onChange((new_folder) => {
+        this.plugin.settings.userscripts_folder = new_folder;
         this.plugin.save_settings();
       });
       cb.containerEl.addClass("templater_search");
     });
     desc = document.createDocumentFragment();
     let name;
-    if (!this.plugin.settings.user_scripts_folder) {
+    if (!this.plugin.settings.userscripts_folder) {
       name = "No User Scripts folder set";
     } else {
-      const files = errorWrapperSync(() => get_tfiles_from_folder(this.plugin.settings.user_scripts_folder), `User Scripts folder doesn't exist`);
+      const files = errorWrapperSync(() => get_tfiles_from_folder(this.plugin.settings.userscripts_folder), `User Scripts folder doesn't exist`);
       if (!files || files.length === 0) {
         name = "No User Scripts detected";
       } else {
@@ -3055,7 +3055,7 @@ var UserScriptFunctions = class {
   }
   async generate_user_script_functions() {
     const user_script_functions = new Map();
-    const files = errorWrapperSync(() => get_tfiles_from_folder(this.plugin.settings.user_scripts_folder), `Couldn't find user script folder "${this.plugin.settings.user_scripts_folder}"`);
+    const files = errorWrapperSync(() => get_tfiles_from_folder(this.plugin.settings.userscripts_folder), `Couldn't find user script folder "${this.plugin.settings.userscripts_folder}"`);
     if (!files) {
       return new Map();
     }
@@ -3105,7 +3105,7 @@ var UserFunctions = class {
     if (this.plugin.settings.enable_system_commands) {
       user_system_functions = await this.user_system_functions.generate_object(config);
     }
-    if (this.plugin.settings.user_scripts_folder) {
+    if (this.plugin.settings.userscripts_folder) {
       user_script_functions = await this.user_script_functions.generate_object();
     }
     return {
@@ -3825,7 +3825,7 @@ var Templater = class {
       }
     }
   }
-  async execute_startup_scripts() {
+  async execute_startupscripts() {
     for (const template of this.plugin.settings.startup_templates) {
       if (!template) {
         continue;
@@ -5605,7 +5605,7 @@ var TemplaterPlugin = class extends import_obsidian18.Plugin {
     }
     this.addSettingTab(new TemplaterSettingTab(this));
     app.workspace.onLayoutReady(() => {
-      this.templater.execute_startup_scripts();
+      this.templater.execute_startupscripts();
     });
   }
   async save_settings() {

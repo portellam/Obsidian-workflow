@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "5-Templates",
+  "templates_folder": "templates",
   "templates_pairs": [
     [
       "",
@@ -11,12 +11,12 @@
   "auto_jump_to_cursor": true,
   "enable_system_commands": false,
   "shell_path": "",
-  "user_scripts_folder": "",
+  "userscripts_folder": "",
   "enable_folder_templates": true,
   "folder_templates": [
     {
       "folder": "/",
-      "template": "5-Templates/Filename-Template.md"
+      "template": "templates/Filename-Template.md"
     }
   ],
   "syntax_highlighting": true,

@@ -251,7 +251,7 @@
   "settingsConvertedToConfigKeyValues": true,
   "foldersToIgnore": [
     "_Sources",
-    "5-Templates",
+    "templates",
     "Passions Backlog"
   ],
   "linterLocale": "system-default",

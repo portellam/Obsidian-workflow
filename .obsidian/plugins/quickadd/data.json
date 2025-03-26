@@ -47,12 +47,12 @@
           "type": "Capture",
           "command": true,
           "appendLink": false,
-          "captureTo": "2-Areas/",
+          "captureTo": "02 - Areas/",
           "captureToActiveFile": false,
           "createFileIfItDoesntExist": {
             "enabled": true,
             "createWithTemplate": true,
-            "template": "5-Templates/Areas.md"
+            "template": "templates/Areas.md"
           },
           "format": {
             "enabled": true,
@@ -87,7 +87,7 @@
           "createFileIfItDoesntExist": {
             "enabled": true,
             "createWithTemplate": true,
-            "template": "5-Templates/Daily-Notes.md"
+            "template": "templates/Daily-Notes.md"
           },
           "format": {
             "enabled": true,
@@ -196,12 +196,12 @@
           "type": "Capture",
           "command": true,
           "appendLink": false,
-          "captureTo": "2-Areas/",
+          "captureTo": "02 - Areas/",
           "captureToActiveFile": false,
           "createFileIfItDoesntExist": {
             "enabled": true,
             "createWithTemplate": true,
-            "template": "5-Templates/Areas.md"
+            "template": "templates/Areas.md"
           },
           "format": {
             "enabled": true,
@@ -236,7 +236,7 @@
           "createFileIfItDoesntExist": {
             "enabled": true,
             "createWithTemplate": true,
-            "template": "5-Templates/Daily-Notes.md"
+            "template": "templates/Daily-Notes.md"
           },
           "format": {
             "enabled": true,
@@ -342,7 +342,7 @@
           "name": "tasksync::SelectFromAllTasks",
           "type": "UserScript",
           "id": "ea8aebe5-e3b2-4e74-8bd5-496e68703195",
-          "path": "_Scripts/tasksync.js",
+          "path": "scripts/tasksync.js",
           "settings": {}
         }
       ],
@@ -356,7 +356,7 @@
           "name": "journalsync::SelectFromAllTasks",
           "type": "UserScript",
           "id": "b363a144-1e37-4093-b9db-ff32c4373bab",
-          "path": "_Scripts/journalsync.js",
+          "path": "scripts/journalsync.js",
           "settings": {}
         }
       ],
@@ -370,7 +370,7 @@
           "name": "passionsync::SelectFromAllTasks",
           "type": "UserScript",
           "id": "65d06f67-4d48-42b7-8d30-8a923d0fef19",
-          "path": "_Scripts/passionsync.js",
+          "path": "scripts/passionsync.js",
           "settings": {}
         }
       ],
@@ -384,7 +384,7 @@
           "name": "somedaysync::SelectFromAllTasks",
           "type": "UserScript",
           "id": "5041ee03-8382-4959-98cc-4ef920a5bba7",
-          "path": "_Scripts/somedaysync.js",
+          "path": "scripts/somedaysync.js",
           "settings": {}
         }
       ],
@@ -398,7 +398,7 @@
           "name": "projectsync::SelectFromAllTasks",
           "type": "UserScript",
           "id": "e8d6634f-68b1-49e1-b5e6-976189b1a2b6",
-          "path": "_Scripts/projectsync.js",
+          "path": "scripts/projectsync.js",
           "settings": {}
         }
       ],
@@ -407,7 +407,7 @@
   ],
   "inputPrompt": "single-line",
   "devMode": false,
-  "templateFolderPath": "5-Templates",
+  "templateFolderPath": "templates",
   "announceUpdates": true,
   "version": "1.4.0",
   "disableOnlineFeatures": true,
