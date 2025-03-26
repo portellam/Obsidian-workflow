@@ -3,7 +3,7 @@
   "excludeFirstLineInNote": true,
   "headingFormat": "",
   "newFileLocation": 2,
-  "customFolder": "0-Inbox",
+  "customFolder": "00 - Inbox",
   "fileNamePrefix": "",
   "transcludeByDefault": false,
   "noteLinkTemplate": "{{new_note_link}}",
