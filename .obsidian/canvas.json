@@ -2,6 +2,6 @@
   "snapToObjects": true,
   "snapToGrid": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "_Canvas",
+  "newFileFolderPath": "canvas",
   "zoomBreakpoint": 0
 }
