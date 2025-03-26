@@ -82,7 +82,7 @@
           "type": "Capture",
           "command": true,
           "appendLink": false,
-          "captureTo": "-Daily-Notes/{{DATE}}",
+          "captureTo": "10 - Daily Notes/{{DATE}}",
           "captureToActiveFile": false,
           "createFileIfItDoesntExist": {
             "enabled": true,
@@ -231,7 +231,7 @@
           "type": "Capture",
           "command": true,
           "appendLink": false,
-          "captureTo": "-Daily-Notes/{{DATE}}",
+          "captureTo": "10 - Daily Notes/{{DATE}}",
           "captureToActiveFile": false,
           "createFileIfItDoesntExist": {
             "enabled": true,

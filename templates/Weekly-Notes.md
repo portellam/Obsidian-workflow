@@ -56,7 +56,7 @@ tR += rightAngle;
 ## Dashboard 🗺️
 
 ```dataviewjs
-await dv.view("scripts", {pages: "dv.pages().file.where(f => f.folder != '_Sources' && f.folder != '04 - Archives' && f.folder != 'templates').tasks.where(t => !t.text.includes('🔁'))", view: "week", firstDayOfWeek: "1", options: "style8 filter", dailyNoteFolder: "-Daily-Notes"})
+await dv.view("scripts", {pages: "dv.pages().file.where(f => f.folder != '_Sources' && f.folder != '04 - Archives' && f.folder != 'templates').tasks.where(t => !t.text.includes('🔁'))", view: "week", firstDayOfWeek: "1", options: "style8 filter", dailyNoteFolder: "10 - Daily Notes"})
 ```
 
 > [!CHECK]+ Projects 🎯
@@ -136,7 +136,7 @@ await dv.view("scripts", {pages: "dv.pages().file.where(f => f.folder != '_Sourc
 > ```tasks
 > not done
 > is not recurring
-> (path includes -Daily-Notes) OR (path includes -Periodic-Notes)
+> (path includes "10 - Daily Notes") OR (path includes "10 - Periodic Notes")
 > (heading includes Focus) AND (heading includes Goals)
 > group by function '%%' + (task.heading.includes("Yearly Focus 🔥 & Goals 🎯") ? "1" : task.heading.includes("Quarterly Focus 🔥 & Goals 🎯") ? "2" : task.heading.includes("Monthly Focus 🔥 & Goals 🎯") ? "3" : task.heading.includes("Weekly Focus 🔥 & Goals 🎯") ? "4" : task.heading.includes("Daily Focus 🔥 & Goals 🎯") ? "5" : "6") + '%%' + task.heading + " > " + task.file.filenameWithoutExtension + " > " + task.tags
 > ```
@@ -198,7 +198,7 @@ await dv.view("scripts", {pages: "dv.pages().file.where(f => f.folder != '_Sourc
 > ```tasks
 > not done
 > description does not include ]]
-> path includes -Daily-Notes
+> path includes 10 - Daily Notes
 > (heading does not include Focus) AND (heading does not include Goals)
 > (status.type is TODO) AND (no tags) AND (no happens date)
 > group by filename
@@ -210,7 +210,7 @@ await dv.view("scripts", {pages: "dv.pages().file.where(f => f.folder != '_Sourc
 > ```tasks
 > not done
 > description does not include ]]
-> (path does not include -Daily-Notes) AND (path does not include -Periodic-Notes)
+> (path does not include 10 - Daily Notes) AND (path does not include 10 - Periodic Notes)
 > filename does not include Passions Backlog 🎮
 > (status.type is TODO) AND (no tags) AND (no happens date)
 > group by filename
@@ -281,4 +281,4 @@ await dv.view("scripts", {pages: "dv.pages().file.where(f => f.folder != '_Sourc
 
 An Interesting Title :
 
-<% await tp.file.move("/-Periodic-Notes/" + tp.file.title) %>
+<% await tp.file.move("/10 - Periodic Notes/" + tp.file.title) %>

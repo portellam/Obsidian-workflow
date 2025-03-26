@@ -31,7 +31,7 @@ const calendarData = {
 }
 
 //DataviewJS loop
-for (let page of dv.pages('"-Daily-Notes"').where(p => p.mood)) {
+for (let page of dv.pages('"10 - Daily Notes"').where(p => p.mood)) {
     //dv.span("<br>" + page.file.name) // uncomment for troubleshooting
     calendarData.entries.push({
         date: page.file.name,     // (required) Format YYYY-MM-DD
@@ -48,7 +48,7 @@ renderHeatmapCalendar(this.container, calendarData)
 const header = '#+ [^\n]*?Journal[^\n]*?'
 
 // You can update this to filter as you like - filtering for just your daily notes would be good
-const pages = dv.pages('"-Daily-Notes"').filter(page => page.file.name.includes("2024")).sort(x => x.file.name, 'desc')
+const pages = dv.pages('"10 - Daily Notes"').filter(page => page.file.name.includes("2024")).sort(x => x.file.name, 'desc')
 
 // This regex will return text from the Summary header, until it reaches
 // the next header, a horizontal line, or the end of the file
