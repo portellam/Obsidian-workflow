@@ -7,7 +7,7 @@
 - [4. Support](#4-Support)
 
 ## 1. Introduction
-![image](images/example.png)
+![image](media/example.png)
 
 As promised to quite a few people on different places, here is the author's
 Obsidian workflow template. It has many cool features, of which solve issues
