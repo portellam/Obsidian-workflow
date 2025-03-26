@@ -60,7 +60,7 @@ That means easy search for knowledge inside your vault across sources and
 personal notes.
 
 - 📝 [Zettelkasten note-taking](https://everlaab.com/methode-zettelkasten-comment-prendre-des-notes-utiles/)
-on a flat structure inside `3-Resources` folder.
+on a flat structure inside `03 - Resources` folder.
 
     1. 📎 Import sources automatically using
 	[obsidian-omnivore](https://github.com/omnivore-app/obsidian-omnivore)
