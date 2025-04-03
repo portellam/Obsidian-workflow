@@ -16,7 +16,7 @@ and Bookmark Management, Note-taking and Note-sharing on your own website.
 - [3. Usage](#3-usage)
 - [4. Features](#4-features)
 - [5. Documentation](#5-documentation)
-- [6. Contac](#6-contact)
+- [6. Contact](#6-contact)
 - [7. Support](#7-support)
 
 ## Contents
