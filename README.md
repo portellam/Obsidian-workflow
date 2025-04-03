@@ -75,14 +75,14 @@ starting-point.
 [12]: https://github.com/portellam/Obsidian-workflow/releases/latest
 
 ### 3. Installation
-Please review the [installation documentation][4].
+Please review the [installation documentation][31].
 
-[4]: https://github.com/portellam/Obsidian-workflow-docs/blob/master/docs/getting-started/installation.md
+[31]: https://github.com/portellam/Obsidian-workflow-docs/blob/master/docs/getting-started/installation.md
 
 ### 4. Usage
-Please review the [usage documentation][4].
+Please review the [usage documentation][41].
 
-[4]: https://github.com/portellam/Obsidian-workflow-docs/tree/master/docs/usage
+[41]: https://github.com/portellam/Obsidian-workflow-docs/tree/master/docs/usage
 
 ### 5. Features
 - 🎨 Beautiful design using
