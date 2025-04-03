@@ -4,9 +4,9 @@ Tasks and Project Management, Journaling, Media Tracking, Offline Read-it-later
 and Bookmark Management, Note-taking and Note-sharing on your own website.
 
 ### [Download](#2-download)
-#### View this repository on [GitHub][03], [Codeberg][01], or [Gitea][02].
+#### View this repository on [Codeberg][01], [GitHub][02].
 [01]: https://codeberg.org/portellam/Obsidian-workflow
-[02]: https://gitea.com/portellam/Obsidian-workflow
+[02]: https://github.com/portellam/Obsidian-workflow
 ##
 
 ## Table of Contents
@@ -45,7 +45,7 @@ your **own** setup. But that doesn’t forbid you from using this one as a
 starting-point.
 
 ### 2. Download
-- Download the Latest Release:&ensp;[GitHub][12] or [Codeberg][11].
+- Download the Latest Release:&ensp;[Codeberg][21], [GitHub][22].
 
 - Download the `.zip` file:
     1. Viewing from the top of the repository's (current) webpage, click the
@@ -69,12 +69,12 @@ starting-point.
     3. Clone the repository:
         - `git clone https://www.github.com/portellam/Obsidian-workflow`
 
-[11]: https://codeberg.org/portellam/Obsidian-workflow/releases/latest
-[12]: https://gitea.com/portellam/Obsidian-workflow/releases/latest
+[21]: https://codeberg.org/portellam/Obsidian-workflow/releases/latest
+[22]: https://github.com/portellam/Obsidian-workflow/releases/latest
 
 ### 3. Usage
 1. [Download](#2-download) the vault template.
-2. If necessary, un-archive/decompress the vault template's archive file (`.zip`).
+2. If necessary, un-archive/decompress the vault template's `.zip` archive file.
 3. Open a new window of *Obsidian*, click the `Open` button (next to
 *Open folder as vault*).
 4. Navigate to the directory where the vault template is, and select the vault
@@ -139,15 +139,15 @@ search for knowledge inside your vault across sources and personal notes.
 ### 5. Documentation
 The original author's documentation is available [here][51].
 
-If you want to modify it, feel free to help in the [docs repository][52].
+If you want to modify it, feel free to help in the [documentation repository][52].
 
 [51]: https://mathisgauthey.github.io/obsidian-workflow-template-docs/
 [52]: https://github.com/portellam/Obsidian-workflow-docs
 
 ### 6. Contact
-Do you need help? Please visit the [Issues][21] page.
+Do you need help? Please visit the [Issues][61] page.
 
-[21]: https://github.com/portellam/template/issues
+[61]: https://github.com/portellam/Obsidian-workflow/issues
 
 ### 7. Support
 Word from the [original author][71]:
