@@ -13,11 +13,12 @@ and Bookmark Management, Note-taking and Note-sharing on your own website.
 ## Table of Contents
 - [1. Introduction](#1-introduction)
 - [2. Download](#2-download)
-- [3. Usage](#3-usage)
-- [4. Features](#4-features)
-- [5. Documentation](#5-documentation)
-- [6. Contact](#6-contact)
-- [7. Support](#7-support)
+- [3. Installation](3-installation)
+- [4. Usage](#4-usage)
+- [5. Features](#5-features)
+- [6. Documentation](#6-documentation)
+- [7. Contact](#7-contact)
+- [8. Support](#8-support)
 
 ## Contents
 ### 1. Introduction
@@ -73,21 +74,23 @@ starting-point.
 [11]: https://codeberg.org/portellam/Obsidian-workflow/releases/latest
 [12]: https://github.com/portellam/Obsidian-workflow/releases/latest
 
-### 3. Usage
-1. [Download](#2-download) the vault template.
-2. If necessary, un-archive/decompress the vault template's `.zip` archive file.
-3. Open a new window of *Obsidian*, click the `Open` button (next to
-*Open folder as vault*).
-4. Navigate to the directory where the vault template is, and select the vault
-folder (example: `.\Obsidian-workflow`.)
+### 3. Installation
+Please review the [installation documentation][4].
 
-### 4. Features
+[4]: https://github.com/portellam/Obsidian-workflow-docs/blob/master/docs/getting-started/installation.md
+
+### 4. Usage
+Please review the [usage documentation][4].
+
+[4]: https://github.com/portellam/Obsidian-workflow-docs/tree/master/docs/usage
+
+### 5. Features
 - 🎨 Beautiful design using
-[AnuPpuccin: Personal theme for Obsidian][401].
+[AnuPpuccin: Personal theme for Obsidian][501].
 
-- 🗃️ [P.A.R.A][402] folder organisation based on file actionability.
+- 🗃️ [P.A.R.A][502] folder organisation based on file actionability.
 
-- ✅ [GTD][403] task management on par with a [full Todoist setup][404], but with
+- ✅ [GTD][503] task management on par with a [full Todoist setup][504], but with
 a simple and natural way of **writing tasks alongside notes**. You also get to
 keep your project tasks, notes and files archives when you finish a project,
 allowing you to access these informations in the future.
@@ -103,17 +106,17 @@ backlog, consuming media at the right pace, and archiving what you do. All
 without proprietary online services that hold you data.
 
 - 🔗 Read-it-later / bookmark manager with automated markdown conversion for
-offline storage inside your vault using [Omnivore app][405]. That means easy
+offline storage inside your vault using [Omnivore app][505]. That means easy
 search for knowledge inside your vault across sources and personal notes.
 
-- 📝 [Zettelkasten note-taking][406] on a flat structure inside the folder
+- 📝 [Zettelkasten note-taking][506] on a flat structure inside the folder
 `03 - Resources`.
 
-    1. 📎 Import sources automatically using [obsidian-omnivore][407] plugin for an
+    1. 📎 Import sources automatically using [obsidian-omnivore][507] plugin for an
 	automatic markdown conversion of a webpage or document online or manually from a
-	file or using [markdownload][408].
+	file or using [markdownload][508].
 
-    2. Highlight and take reference notes using	[Omnivore app][409] or directly
+    2. Highlight and take reference notes using	[Omnivore app][509] or directly
 	inside your vault using a simple markdown file.
 	
     3. Write literature notes to summarise the source informations.
@@ -121,45 +124,43 @@ search for knowledge inside your vault across sources and personal notes.
     4. Write permanent notes from key concepts directly inside literature notes
 	using wiki-links.
 	
-- 🌐 One click upload of file and attachments to a [Hugo][410] website hosted on
-[Github Pages][411] thanks to [obsidian-github-publisher][412] plugin.
+- 🌐 One click upload of file and attachments to a [Hugo][510] website hosted on
+[Github Pages][511] thanks to [obsidian-github-publisher][512] plugin.
 
-[401]: https://github.com/AnubisNekhet/anuppuccin
-[402]: https://fortelabs.com/blog/para/
-[403]: https://gettingthingsdone.com/
-[404]: https://todoist.com/fr/productivity-methods/getting-things-done
-[405]: https://omnivore.app/
-[406]: https://everlaab.com/methode-zettelkasten-comment-prendre-des-notes-utiles/
-[407]: https://github.com/omnivore-app/obsidian-omnivore
-[408]: https://github.com/deathau/markdownload
-[409]: https://omnivore.app/
-[410]: https://gohugo.io/
-[411]: https://pages.github.com/
-[412]: https://github.com/ObsidianPublisher/obsidian-github-publisher
+[501]: https://github.com/AnubisNekhet/anuppuccin
+[502]: https://fortelabs.com/blog/para/
+[503]: https://gettingthingsdone.com/
+[504]: https://todoist.com/fr/productivity-methods/getting-things-done
+[505]: https://omnivore.app/
+[506]: https://everlaab.com/methode-zettelkasten-comment-prendre-des-notes-utiles/
+[507]: https://github.com/omnivore-app/obsidian-omnivore
+[508]: https://github.com/deathau/markdownload
+[509]: https://omnivore.app/
+[510]: https://gohugo.io/
+[511]: https://pages.github.com/
+[512]: https://github.com/ObsidianPublisher/obsidian-github-publisher
 
-### 5. Documentation
-The original author's documentation is available [here][51].
+### 6. Documentation
+The original author's documentation is available [here][61].
 
-If you want to modify it, feel free to help in the [documentation repository][52].
+If you want to modify it, feel free to help in the [documentation repository][62].
 
-[51]: https://mathisgauthey.github.io/obsidian-workflow-template-docs/
-[52]: https://github.com/portellam/Obsidian-workflow-docs
+[61]: https://mathisgauthey.github.io/obsidian-workflow-template-docs/
+[62]: https://github.com/portellam/Obsidian-workflow-docs
 
-### 6. Contact
-Do you need help? Please visit the [Issues][61] page.
+### 7. Contact
+Do you need help? Please visit the [Issues][71] page.
 
-[61]: https://github.com/portellam/Obsidian-workflow/issues
+[71]: https://github.com/portellam/Obsidian-workflow/issues
 
-### 7. Support
-Word from the [original author][71]:
+### 8. Support
+Word from the [original author][81]:
 
-Support the original author:
+Support the original author: [![ko-fi][82]][83]
 
-[![ko-fi][72]][73]
-
-[71]: https://github.com/mathisgauthey/obsidian-workflow-template
-[72]: https://ko-fi.com/img/githubbutton_sm.svg
-[73]: https://ko-fi.com/Q5Q5DC7L4
+[81]: https://github.com/mathisgauthey/obsidian-workflow-template
+[82]: https://ko-fi.com/img/githubbutton_sm.svg
+[83]: https://ko-fi.com/Q5Q5DC7L4
 #
 
 #### Click [here](#template) to return to the top of this document.
