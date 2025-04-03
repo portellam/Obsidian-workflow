@@ -1,5 +1,5 @@
 # Obsidian workflow
-### v1.0.0
+### v1.0.8
 An <a href="https://obsidian.md/">Obsidian</a> vault template from a Workflow with
 Tasks and Project Management, Journaling, Media Tracking, Offline Read-it-later
 and Bookmark Management, Note-taking and Note-sharing on your own website.
@@ -13,7 +13,7 @@ and Bookmark Management, Note-taking and Note-sharing on your own website.
 ## Table of Contents
 - [1. Introduction](#1-introduction)
 - [2. Download](#2-download)
-- [3. Installation](3-installation)
+- [3. Installation](#3-installation)
 - [4. Usage](#4-usage)
 - [5. Features](#5-features)
 - [6. Documentation](#6-documentation)
