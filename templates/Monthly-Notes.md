@@ -51,7 +51,7 @@ tR += rightAngle;
 ## Dashboard 🗺️
 
 ```dataviewjs
-await dv.view("scripts", {pages: "dv.pages().file.where(f => f.folder != '_Sources' && f.folder != '04 - Archives' && f.folder != 'templates').tasks.where(t => !t.text.includes('🔁'))", view: "month", firstDayOfWeek: "1", options: "style9 filter", dailyNoteFolder: "-Daily-Notes"})
+await dv.view("scripts", {pages: "dv.pages().file.where(f => f.folder != 'sources' && f.folder != '04 - Archives' && f.folder != 'templates').tasks.where(t => !t.text.includes('🔁'))", view: "month", firstDayOfWeek: "1", options: "style9 filter", dailyNoteFolder: "-Daily-Notes"})
 ```
 
 > [!CHECK]+ Projects 🎯
