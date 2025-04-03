@@ -1,10 +1,11 @@
 # Obsidian workflow
+### v1.0.0
 An <a href="https://obsidian.md/">Obsidian</a> vault template from a Workflow with
 Tasks and Project Management, Journaling, Media Tracking, Offline Read-it-later
 and Bookmark Management, Note-taking and Note-sharing on your own website.
 
 ### [Download](#2-download)
-#### View this repository on [Codeberg][01], [GitHub][02].
+#### View this repository on [Codeberg][01] or [GitHub][03].
 [01]: https://codeberg.org/portellam/Obsidian-workflow
 [02]: https://github.com/portellam/Obsidian-workflow
 ##
@@ -45,7 +46,7 @@ your **own** setup. But that doesn’t forbid you from using this one as a
 starting-point.
 
 ### 2. Download
-- Download the Latest Release:&ensp;[Codeberg][21], [GitHub][22].
+- Download the Latest Release:&ensp; [Codeberg][11] or [GitHub][12].
 
 - Download the `.zip` file:
     1. Viewing from the top of the repository's (current) webpage, click the
@@ -69,8 +70,8 @@ starting-point.
     3. Clone the repository:
         - `git clone https://www.github.com/portellam/Obsidian-workflow`
 
-[21]: https://codeberg.org/portellam/Obsidian-workflow/releases/latest
-[22]: https://github.com/portellam/Obsidian-workflow/releases/latest
+[11]: https://codeberg.org/portellam/Obsidian-workflow/releases/latest
+[12]: https://github.com/portellam/Obsidian-workflow/releases/latest
 
 ### 3. Usage
 1. [Download](#2-download) the vault template.
