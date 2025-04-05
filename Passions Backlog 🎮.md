@@ -20,7 +20,7 @@ kanban-plugin: basic
 
 ## 2024
 
-## Abandonned
+## Abandoned
 
 ## Never Tried, Never Will
 

@@ -250,7 +250,7 @@
   "displayLintOnFileChangeNotice": false,
   "settingsConvertedToConfigKeyValues": true,
   "foldersToIgnore": [
-    "_Sources",
+    "sources",
     "templates",
     "Passions Backlog"
   ],

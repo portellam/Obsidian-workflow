@@ -1,5 +1,5 @@
 {
-  "globalQuery": "path does not include _Sources\npath does not include templates",
+  "globalQuery": "path does not include sources\npath does not include templates",
   "globalFilter": "",
   "removeGlobalFilter": true,
   "taskFormat": "tasksPluginEmoji",
