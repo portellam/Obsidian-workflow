@@ -5,11 +5,11 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiMusic4",
       "🌐",
       "📝",
       "💻",
-      "©",
-      "🗃"
+      "©"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -49,5 +49,6 @@
   "10 - Periodic Notes": "📅",
   "canvas": "🌐",
   "images": "📎",
-  "scripts": "💻"
+  "scripts": "💻",
+  "media": "LiMusic4"
 }
