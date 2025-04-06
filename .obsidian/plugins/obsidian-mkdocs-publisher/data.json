@@ -1,25 +1,28 @@
 {
   "github": {
+    "user": "",
+    "repo": "",
     "branch": "main",
     "automaticallyMergePR": true,
+    "dryRun": {
+      "enable": false,
+      "folderName": "enveloppe"
+    },
+    "tokenPath": ".obsidian/plugins/obsidian-mkdocs-publisher/env",
     "api": {
       "tiersForApi": "Github Free/Pro/Team (default)",
       "hostname": ""
     },
-    "otherRepo": [],
     "workflow": {
-      "name": "",
-      "commitMessage": "[PUBLISHER] MERGE"
+      "commitMessage": "[PUBLISHER] MERGE",
+      "name": ""
     },
-    "tokenPath": ".obsidian/plugins/obsidian-mkdocs-publisher/env",
-    "repo": "",
-    "user": "",
-    "rateLimit": 4985,
-    "verifiedRepo": true
+    "otherRepo": [],
+    "verifiedRepo": true,
+    "rateLimit": 4985
   },
   "upload": {
     "behavior": "fixed",
-    "subFolder": "",
     "defaultName": "content/post",
     "rootFolder": "",
     "yamlFolderKey": "",
@@ -28,7 +31,9 @@
       "key": "title"
     },
     "replaceTitle": [],
+    "replacePath": [],
     "autoclean": {
+      "includeAttachments": true,
       "enable": false,
       "excluded": [
         "docs/assets/js",
@@ -40,10 +45,14 @@
     },
     "folderNote": {
       "enable": true,
-      "rename": "index.md"
+      "rename": "index.md",
+      "addTitle": {
+        "enable": false,
+        "key": "title"
+      }
     },
     "metadataExtractorPath": "",
-    "replacePath": []
+    "subFolder": ""
   },
   "conversion": {
     "hardbreak": false,
@@ -68,14 +77,24 @@
     "links": {
       "internal": false,
       "unshared": false,
-      "wiki": false
+      "wiki": false,
+      "slugify": "disable",
+      "unlink": false,
+      "relativePath": true,
+      "textPrefix": "/"
     }
   },
   "embed": {
     "attachments": true,
+    "overrideAttachments": [],
     "keySendFile": [],
     "notes": true,
-    "folder": "content/images"
+    "folder": "content/images",
+    "convertEmbedToLinks": "keep",
+    "charConvert": "->",
+    "unHandledObsidianExt": [],
+    "sendSimpleLinks": true,
+    "forcePush": true
   },
   "plugin": {
     "shareKey": "share",
@@ -86,10 +105,16 @@
       "enable": false,
       "links": "",
       "removePart": [],
-      "addCmd": false
+      "addCmd": false,
+      "transform": {
+        "toUri": true,
+        "slugify": "lower",
+        "applyRegex": []
+      }
     },
     "noticeError": false,
     "displayModalRepoEditing": true,
+    "setFrontmatterKey": "Set",
     "migrated": true
   }
 }

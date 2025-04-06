@@ -2,11 +2,13 @@
   "fadeToggle": true,
   "autoRefreshToggle": true,
   "autoRefreshInterval": 10,
-  "renderDate": true,
   "renderDateIcon": true,
-  "renderProject": true,
   "renderProjectIcon": true,
-  "renderLabels": true,
   "renderLabelsIcon": true,
-  "debugLogging": false
+  "shouldWrapLinksInParens": false,
+  "addTaskButtonAddsPageLink": "content",
+  "debugLogging": false,
+  "renderDate": true,
+  "renderProject": true,
+  "renderLabels": true
 }
