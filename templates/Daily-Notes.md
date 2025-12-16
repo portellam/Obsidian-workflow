@@ -2,8 +2,8 @@
 title: <% moment(tp.file.title, "YYYY-MM-DD").format("YYYY-MM-DD") %>
 date: <% moment(tp.file.creation_date()).format("YYYY-MM-DD HH:mm:ss") %>
 lastmod: <% moment(tp.file.creation_date()).format("YYYY-MM-DD HH:mm:ss") %>
-categories:
-tags: daily-notes
+categories: daily
+tags:
 aliases:
 share: false
 ---
