@@ -77,7 +77,7 @@ ___
 > ```tasks
 > not done
 > is not recurring
-> filename includes Kanban
+> filename includes 00 - Kanban Board
 > heading includes To Do
 > group by heading
 > ```
@@ -86,7 +86,7 @@ ___
 > ```tasks
 > not done
 > is not recurring
-> filename includes Kanban
+> filename includes 00 - Kanban Board
 > heading includes Doing
 > group by heading
 > ```
@@ -95,7 +95,7 @@ ___
 > ```tasks
 > not done
 > is not recurring
-> filename includes Kanban
+> filename includes 00 - Kanban Board
 > heading includes Waiting
 > group by heading
 > ```
@@ -104,7 +104,7 @@ ___
 > ```tasks
 > not done
 > is not recurring
-> filename includes Kanban
+> filename includes 00 - Kanban Board
 > heading includes Done
 > group by heading
 > ```
