@@ -40,15 +40,6 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "00 - Inbox": "📥",
-  "01 - Projects": "✅",
-  "02 - Areas": "🔲",
-  "03 - Resources": "📁",
-  "04 - Archives": "🗃",
-  "10 - Daily Notes": "📆",
   "10 - Periodic Notes": "📅",
-  "canvas": "🌐",
-  "images": "📎",
-  "scripts": "💻",
-  "media": "LiMusic4"
+  "images": "📎"
 }
