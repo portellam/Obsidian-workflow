@@ -1,16 +1,16 @@
 ---
-title: Journal 2024 📔
-date: 2023-05-03 18:15:57
-lastmod: 2024-01-03 09:48:34
+title: Habits
+date: 2025-12-18T00:00:00
+lastmod: 2025-12-18T00:00:00
 categories:
   - 
 tags:
   - 
-aliases: 
+aliases:
 share: false
 ---
 
-# Journal 2024 📔
+# Habits
 
 [Color palette](https://www.color-hex.com/color-palette/1464) :
 
