@@ -77,7 +77,7 @@ ___
 > ```tasks
 > not done
 > is not recurring
-> path includes "92 - Kanban Boards"
+> path includes "50 - Kanban Boards"
 > filename includes 00 - Kanban Board
 > heading includes To Do
 > group by heading
@@ -87,6 +87,7 @@ ___
 > ```tasks
 > not done
 > is not recurring
+> path includes "50 - Kanban Boards"
 > filename includes 00 - Kanban Board
 > heading includes Doing
 > group by heading
@@ -96,6 +97,7 @@ ___
 > ```tasks
 > not done
 > is not recurring
+> path includes "50 - Kanban Boards"
 > filename includes 00 - Kanban Board
 > heading includes Waiting
 > group by heading
@@ -105,6 +107,7 @@ ___
 > ```tasks
 > not done
 > is not recurring
+> path includes "50 - Kanban Boards"
 > filename includes 00 - Kanban Board
 > heading includes Done
 > group by heading
