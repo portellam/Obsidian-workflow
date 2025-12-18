@@ -4,6 +4,13 @@
   "linkRegex": {},
   "linkLineRegex": {},
   "imageRegex": {},
-  "shouldReplaceSelection": false,
-  "enhanceDefaultPaste": true
+  "enhanceDefaultPaste": true,
+  "shouldPreserveSelectionAsTitle": false,
+  "enhanceDropEvents": true,
+  "websiteBlacklist": "",
+  "maximumTitleLength": 0,
+  "useNewScraper": false,
+  "linkPreviewApiKey": "",
+  "useBetterPasteId": false,
+  "shouldReplaceSelection": false
 }
