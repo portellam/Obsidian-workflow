@@ -1,8 +1,6 @@
-# Obsidian workflow
+# README
 ### v1.0.8
-An <a href="https://obsidian.md/">Obsidian</a> vault template from a Workflow with
-Tasks and Project Management, Journaling, Media Tracking, Offline Read-it-later
-and Bookmark Management, Note-taking and Note-sharing on your own website.
+An <a href="https://obsidian.md/">Obsidian</a> vault template from a Workflow with Tasks and Project Management, Journaling, Media Tracking, Offline Read-it-later and Bookmark Management, Note-taking and Note-sharing on your own website.
 
 ### [Download](#2-download)
 #### View this repository on [Codeberg][01] or [GitHub][02].
@@ -22,7 +20,7 @@ and Bookmark Management, Note-taking and Note-sharing on your own website.
 
 ## Contents
 ### 1. Introduction
-![image](media/example.png)
+![[example.png]]
 
 As promised to quite a few people on different places, here is the author's
 Obsidian workflow template. It has many cool features, of which solve issues
