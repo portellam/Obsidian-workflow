@@ -3,33 +3,33 @@
   "hasMigratedDailyNoteSettings": true,
   "hasMigratedWeeklyNoteSettings": false,
   "daily": {
-    "folder": "10 - Daily Notes",
-    "template": "templates/Daily-Notes.md",
+    "folder": "11 - Daily",
+    "template": "templates/Daily.md",
     "enabled": true,
     "format": "YYYY-MM-DD ddd"
   },
   "weekly": {
     "format": "GGGG-[W]WW",
     "template": "templates/Weekly-Notes.md",
-    "folder": "10 - Periodic Notes",
+    "folder": "12 - Weekly",
     "enabled": true
   },
   "monthly": {
     "format": "YYYY-MM",
     "template": "templates/Monthly-Notes.md",
-    "folder": "10 - Periodic Notes",
+    "folder": "13 - Monthly",
     "enabled": true
   },
   "quarterly": {
     "format": "YYYY-[Q]Q",
     "template": "templates/Quarterly-Notes.md",
-    "folder": "10 - Periodic Notes",
+    "folder": "14 - Quarterly",
     "enabled": true
   },
   "yearly": {
     "format": "YYYY",
     "template": "templates/Yearly-Notes.md",
-    "folder": "10 - Periodic Notes",
+    "folder": "15 - Yearly",
     "enabled": true
   }
 }
