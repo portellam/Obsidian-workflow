@@ -233,5 +233,8 @@
   "UseTagDetail": false,
   "StoreTagDetailInYaml": "plugin",
   "TagDetailData": {},
-  "MetaFileTagDetails": {}
+  "MetaFileTagDetails": {
+    "templates/Daily-Notes.md": [],
+    "templates/Daily.md": []
+  }
 }
