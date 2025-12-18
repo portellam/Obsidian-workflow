@@ -407,7 +407,7 @@
   ],
   "inputPrompt": "single-line",
   "devMode": false,
-  "templateFolderPath": "templates",
+  "templateFolderPath": "99 - Templates",
   "announceUpdates": true,
   "version": "1.13.2",
   "disableOnlineFeatures": true,

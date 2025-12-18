@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "templates",
+  "templates_folder": "99 - Templates",
   "templates_pairs": [
     [
       "",
@@ -11,16 +11,26 @@
   "auto_jump_to_cursor": true,
   "enable_system_commands": false,
   "shell_path": "",
-  "userscripts_folder": "",
+  "user_scripts_folder": "",
   "enable_folder_templates": true,
   "folder_templates": [
     {
       "folder": "/",
-      "template": "templates/Filename-Template.md"
+      "template": "99 - Templates/Filename-Template.md"
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
     }
   ],
   "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [],
   "startup_templates": [],
+  "intellisense_render": 1,
+  "userscripts_folder": "",
   "enable_ribbon_icon": true
 }

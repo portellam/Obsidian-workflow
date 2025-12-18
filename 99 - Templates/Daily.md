@@ -77,6 +77,7 @@ ___
 > ```tasks
 > not done
 > is not recurring
+> path includes "92 - Kanban Boards"
 > filename includes 00 - Kanban Board
 > heading includes To Do
 > group by heading

@@ -1,6 +1,5 @@
 {
   "archive-date-format": "YYYY-MM-DD",
-  "date-picker-week-start": 1,
   "hide-date-in-title": true,
   "new-card-insertion-method": "append",
   "archive-with-date": true,
@@ -11,5 +10,7 @@
   "show-checkboxes": false,
   "show-archive-all": false,
   "hide-tags-in-title": true,
-  "hide-date-display": true
+  "hide-date-display": true,
+  "new-note-template": "99 - Templates/Kanban.md",
+  "new-note-folder": "50 - Kanban Boards"
 }

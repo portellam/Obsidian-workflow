@@ -8,11 +8,11 @@ kanban-plugin: board
 
 
 
-## DOING: WORKING
+## DOING
 
 
 
-## DOING: WAITING
+## WAITING
 
 
 
