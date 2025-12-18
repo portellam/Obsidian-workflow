@@ -13,13 +13,16 @@ const previousDay = moment(today, "YYYY-MM-DD").subtract(1, 'd').format("YYYY-MM
 const nextDay = moment(today, "YYYY-MM-DD").add(1, 'd').format("YYYY-MM-DD");
 const previousThirtyDays = moment(today, "YYYY-MM-DD").subtract(30, 'd').format("YYYY-MM-DD");
 
-let folder = "11 - Daily";
+const folderMap = {
+    archive: "04 - Archives",
+    resource: "03 - Resources",
+    area: "02 - Areas",
+    project: "01 - Projects",
+    inbox: "00 - Inbox",
+    daily: "11 - Daily"
+};
 
-if (tp.frontmatter.categories === "archive") folder = "04 - Archives";
-else if (tp.frontmatter.categories === "resource") folder = "03 - Resources";
-else if (tp.frontmatter.categories === "area") folder = "02 - Areas";
-else if (tp.frontmatter.categories === "project") folder = "01 - Projects";
-else if (tp.frontmatter.categories === "inbox") folder = "00 - Inbox";
+const folder = folderMap[tp.frontmatter.categories] || "11 - Daily";
 await tp.file.move(`${folder}/${tp.file.title}`);
 %># [[<% today %>]]
 ___
@@ -52,7 +55,7 @@ ___
 > is not recurring
 > (path includes "11 - Daily") OR (path includes "12 - Weekly") OR (path includes "13 - Monthly") OR (path includes "14 - Quarterly") OR (path includes "15 - Yearly")
 > (heading includes Habits) AND (heading includes Good)
-> group by function '%%' + (task.heading.includes("Good Yearly Habits") ? "1" : task.heading.includes("Good Quarterly Habits") ? "2" : task.heading.includes("Good Monthly Habits") ? "3" : task.heading.includes("Good Weekly Habits") ? "4" : task.heading.includes("Good Daily Habits") ? "5" : "6") + '%%' + task.heading + " > " + task.file.filenameWithoutExtension + " > " + task.tags
+> 
 > ```
 
 > [!RED]+ Bad Habits
@@ -77,39 +80,25 @@ ___
 > ```tasks
 > not done
 > is not recurring
-> path includes "50 - Kanban Boards"
-> filename includes 00 - Kanban Board
-> heading includes To Do
-> group by heading
+> heading includes TO DO
 > ```
 
 > [!ORANGE] Doing
 > ```tasks
-> not done
 > is not recurring
-> path includes "50 - Kanban Boards"
-> filename includes 00 - Kanban Board
-> heading includes Doing
-> group by heading
+> heading includes DOING
 > ```
 
 > [!YELLOW] Waiting
 > ```tasks
-> not done
 > is not recurring
-> path includes "50 - Kanban Boards"
-> filename includes 00 - Kanban Board
-> heading includes Waiting
-> group by heading
+> heading includes WAITING
 > ```
 
 > [!GREEN] Done
 > ```tasks
-> not done
 > is not recurring
-> path includes "50 - Kanban Boards"
-> filename includes 00 - Kanban Board
-> heading includes Done
+> heading includes DONE
 > group by heading
 > ```
 ## Tasks
