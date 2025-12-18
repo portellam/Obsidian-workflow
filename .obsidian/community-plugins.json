@@ -2,7 +2,6 @@
   "remember-cursor-position",
   "obsidian-style-settings",
   "periodic-notes",
-  "obsidian-omnivore",
   "obsidian-kanban",
   "calendar",
   "templater-obsidian",
@@ -38,5 +37,5 @@
   "tag-wrangler",
   "obsidian-tasks-plugin",
   "quickadd",
-  "todoist-sync-plugin"
+  "omnisearch"
 ]
