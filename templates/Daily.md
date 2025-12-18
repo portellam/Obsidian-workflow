@@ -22,101 +22,129 @@ else if (tp.frontmatter.categories === "project") folder = "01 - Projects";
 else if (tp.frontmatter.categories === "inbox") folder = "00 - Inbox";
 await tp.file.move(`${folder}/${tp.file.title}`);
 %># [[<% today %>]]
-
+___
 ## Notes
-***
+___
 <% tp.file.cursor() %>
 
 
+
+
 ## Inbox
-***
-> [!SUMMARY] FILES INBOX
+___
+> [!SUMMARY] Files Inbox
 > ```dataview
 > LIST FROM "00 - Inbox"
 > WHERE file.ctime >= date(<% previousThirtyDays %>)
 > SORT file.ctime DESC
 > ```
-
+------
 ```todoist
 name: Todoist Inbox
 filter: "#Inbox"
 ```
-
-## Retrospectives
-***
-### The Good
-
-
-### The Bad
-
-
-### The Backlog
-
-
-## Interests
-***
-### Due Yesterday
-> [!TASKDUE] INTERESTS DUE YESTERDAY
+## Habits
+___
+> [!GREEN]+ Good Habits
 > ```tasks
 > not done
-> filename includes Interests
-> happens on <% previousDay %>
+> is not recurring
+> (path includes "11 - Daily") OR (path includes "12 - Weekly") OR (path includes "13 - Monthly") OR (path includes "14 - Quarterly") OR (path includes "15 - Yearly")
+> (heading includes Habits) AND (heading includes Good)
+> group by function '%%' + (task.heading.includes("Good Yearly Habits") ? "1" : task.heading.includes("Good Quarterly Habits") ? "2" : task.heading.includes("Good Monthly Habits") ? "3" : task.heading.includes("Good Weekly Habits") ? "4" : task.heading.includes("Good Daily Habits") ? "5" : "6") + '%%' + task.heading + " > " + task.file.filenameWithoutExtension + " > " + task.tags
 > ```
 
-### Do Today
-> [!TASKTODO] INTERESTS DO TODAY 
+> [!RED]+ Bad Habits
 > ```tasks
 > not done
-> filename includes Interests
-> happens on <% today %>
+> is not recurring
+> (path includes "11 - Daily") OR (path includes "12 - Weekly") OR (path includes "13 - Monthly") OR (path includes "14 - Quarterly") OR (path includes "15 - Yearly")
+> (heading includes Habits) AND (heading includes Bad)
+> group by function '%%' + (task.heading.includes("Bad Yearly Habits") ? "1" : task.heading.includes("Bad Quarterly Habits") ? "2" : task.heading.includes("Bad Monthly Habits") ? "3" : task.heading.includes("Bad Weekly Habits") ? "4" : task.heading.includes("Bad Daily Habits") ? "5" : "6") + '%%' + task.heading + " > " + task.file.filenameWithoutExtension + " > " + task.tags
 > ```
+___
+### Good Daily Habits
 
-### Do Tomorrow
-> [!TASKTODONEXT] INTERESTS DO TOMORROW 
+
+
+
+
+### Bad Daily Habits
+
+
+
+
+
+## Kanban Board
+___
+> [!RED] To Do
 > ```tasks
 > not done
-> filename includes Interests
-> happens on <% nextDay %>
+> is not recurring
+> filename includes Kanban
+> heading includes To Do
+> group by heading
 > ```
 
-## Tasks To Do
-***
-### Due Yesterday
-> [!TASKDUE] TASKS DUE YESTERDAY
+> [!ORANGE] Doing
+> ```tasks
+> not done
+> is not recurring
+> filename includes Kanban
+> heading includes Doing
+> group by heading
+> ```
+
+> [!YELLOW] Waiting
+> ```tasks
+> not done
+> is not recurring
+> filename includes Kanban
+> heading includes Waiting
+> group by heading
+> ```
+
+> [!GREEN] Done
+> ```tasks
+> not done
+> is not recurring
+> filename includes Kanban
+> heading includes Done
+> group by heading
+> ```
+
+## Tasks: To Do
+___
+> [!RED] Yesterday's Tasks
 > ```tasks
 > not done
 > is not recurring
 > happens on <% previousDay %>
 > ```
 
-### Do Today
-> [!TASKTODO] TASKS DO TODAY
+> [!ORANGE] Today's Tasks
 > ```tasks
 > not done
 > is not recurring
 > happens on <% today %>
 > ```
 
-### Do Tomorrow
-> [!TASKTODONEXT] TASKS DO TOMORROW 
+> [!YELLOW] Tomorrow's Tasks
 > ```tasks
 > not done
 > is not recurring
 > happens on <% nextDay %>
 > ```
 
-### Recurring
-> [!TASKUNDONE] TASKS RECURRING 
+> [!PINK] Habitual Tasks
 > ```tasks
 > not done
 > is recurring
 > happens on or before <% today %>
 > ```
-
-## Projects To Do
-***
-### Future
-> [!TASKTODONEXT]  PROJECTS FUTURE
+## Projects: To Do
+___
+> [!YELLOW]  Future Projects
 > ```tasks
 > not done
 > description includes ]]
@@ -124,25 +152,22 @@ filter: "#Inbox"
 > group by happens
 > ```
 
-### Waiting
-> [!DONE] PROJECTS WAITING
+> [!BLUE] Waiting Projects
 > ```tasks
 > not done
 > tags include #waiting
 > ```
 
-### Delegated
-> [!task] PROJECTS DELEGATED
-> Contents] 
+> [!PURPLE] Delegated Projects
 > ```tasks
 > not done
 > tags include #delegated
 > ```
 
-## Tasks Log
-***
-### New
-> [!TASKTODO] TASKS NEW
+## Tasks: To Review
+___
+
+> [!ORANGE] TASKS NEW
 > ```tasks
 > not done
 > description does not include ]]
@@ -150,17 +175,14 @@ filter: "#Inbox"
 > group by filename
 > ```
 
-### Done
-> [!TASKDONE] TASKS DONE 
+> [!GREEN] TASKS DONE 
 > ```tasks
 > description does not include ]]
 > done on <% moment(tp.file.title, "YYYY-MM-DD").format("YYYY-MM-DD") %>
 > group by filename
 > ```
 
-
-### Undone
-> [!TASKUNDONE] TASKS UNDONE 
+> [!PINK] TASKS UNDONE 
 > ```tasks
 > description does not include ]]
 > cancelled on <% moment(tp.file.title, "YYYY-MM-DD").format("YYYY-MM-DD") %>
@@ -168,9 +190,9 @@ filter: "#Inbox"
 > ```
 
 ## Projects Log
-***
-### New
-> [!TASKTODO] PROJECTS NEW 
+___
+### New Projects
+> [!ORANGE] PROJECTS NEW 
 > ```tasks
 > not done
 > description does include ]]
@@ -178,19 +200,19 @@ filter: "#Inbox"
 > group by filename
 > ```
 
-### Done
-> [!TASKDONE] PROJECTS DONE 
+### Done Projects
+> [!GREEN] PROJECTS DONE 
 > ```tasks
 > description does include ]]
 > done on <% moment(tp.file.title, "YYYY-MM-DD").format("YYYY-MM-DD") %>
 > group by filename
 > ```
 
-### Undone
-> [!taskundone] PROJECTS UNDONE
+### Undone Projects
+> [!PINK] PROJECTS UNDONE
 > ```tasks
 > description does include ]]
 > cancelled on <% moment(tp.file.title, "YYYY-MM-DD").format("YYYY-MM-DD") %>
 > group by filename
 > ```
-***
+___
