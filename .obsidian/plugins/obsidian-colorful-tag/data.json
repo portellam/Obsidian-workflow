@@ -2,15 +2,15 @@
   "TagSettings": [
     {
       "attributes": {
-        "suffix": "🔆"
+        "suffix": null
       },
-      "opened": false,
+      "opened": true,
       "enable": true,
       "tagDetail": {
         "attributes": {},
         "opened": false,
         "itemType": {},
-        "tagIndex": 15
+        "tagIndex": 0
       },
       "name_": "today"
     },
@@ -24,7 +24,7 @@
         "attributes": {},
         "opened": false,
         "itemType": {},
-        "tagIndex": 0
+        "tagIndex": 1
       },
       "name_": "next"
     },
@@ -38,7 +38,7 @@
         "attributes": {},
         "opened": false,
         "itemType": {},
-        "tagIndex": 1
+        "tagIndex": 2
       },
       "name_": "waiting"
     },
@@ -52,27 +52,13 @@
         "attributes": {},
         "opened": false,
         "itemType": {},
-        "tagIndex": 2
+        "tagIndex": 3
       },
       "name_": "delegated"
     },
     {
       "attributes": {
-        "suffix": "🎯"
-      },
-      "opened": false,
-      "enable": true,
-      "tagDetail": {
-        "attributes": {},
-        "opened": false,
-        "itemType": {},
-        "tagIndex": 3
-      },
-      "name_": "goals"
-    },
-    {
-      "attributes": {
-        "suffix": "🎮"
+        "suffix": null
       },
       "opened": false,
       "enable": true,
@@ -82,11 +68,11 @@
         "itemType": {},
         "tagIndex": 4
       },
-      "name_": "game"
+      "name_": "goals"
     },
     {
       "attributes": {
-        "suffix": "🎌"
+        "suffix": null
       },
       "opened": false,
       "enable": true,
@@ -96,11 +82,11 @@
         "itemType": {},
         "tagIndex": 5
       },
-      "name_": "manga"
+      "name_": "game"
     },
     {
       "attributes": {
-        "suffix": "🔥"
+        "suffix": null
       },
       "opened": false,
       "enable": true,
@@ -110,11 +96,11 @@
         "itemType": {},
         "tagIndex": 6
       },
-      "name_": "focus"
+      "name_": "manga"
     },
     {
       "attributes": {
-        "suffix": "🍿"
+        "suffix": null
       },
       "opened": false,
       "enable": true,
@@ -124,11 +110,11 @@
         "itemType": {},
         "tagIndex": 7
       },
-      "name_": "movie"
+      "name_": "focus"
     },
     {
       "attributes": {
-        "suffix": "🛋️"
+        "suffix": null
       },
       "opened": false,
       "enable": true,
@@ -138,11 +124,11 @@
         "itemType": {},
         "tagIndex": 8
       },
-      "name_": "show"
+      "name_": "movie"
     },
     {
       "attributes": {
-        "suffix": "🎨"
+        "suffix": null
       },
       "opened": false,
       "enable": true,
@@ -152,13 +138,13 @@
         "itemType": {},
         "tagIndex": 9
       },
-      "name_": "drawing"
+      "name_": "show"
     },
     {
       "attributes": {
-        "suffix": "🎼"
+        "suffix": null
       },
-      "opened": false,
+      "opened": true,
       "enable": true,
       "tagDetail": {
         "attributes": {},
@@ -166,11 +152,11 @@
         "itemType": {},
         "tagIndex": 10
       },
-      "name_": "music"
+      "name_": "drawing"
     },
     {
       "attributes": {
-        "suffix": "🏗️"
+        "suffix": null
       },
       "opened": false,
       "enable": true,
@@ -180,11 +166,11 @@
         "itemType": {},
         "tagIndex": 11
       },
-      "name_": "ongoing"
+      "name_": "music"
     },
     {
       "attributes": {
-        "suffix": "🛠️"
+        "suffix": null
       },
       "opened": false,
       "enable": true,
@@ -193,6 +179,20 @@
         "opened": false,
         "itemType": {},
         "tagIndex": 12
+      },
+      "name_": "ongoing"
+    },
+    {
+      "attributes": {
+        "suffix": null
+      },
+      "opened": false,
+      "enable": true,
+      "tagDetail": {
+        "attributes": {},
+        "opened": false,
+        "itemType": {},
+        "tagIndex": 13
       },
       "name_": "DIY"
     },
@@ -206,13 +206,13 @@
         "attributes": {},
         "opened": false,
         "itemType": {},
-        "tagIndex": 13
+        "tagIndex": 14
       },
       "name_": "book"
     },
     {
       "attributes": {
-        "suffix": "👨‍💻"
+        "suffix": null
       },
       "opened": false,
       "enable": true,
@@ -220,7 +220,7 @@
         "attributes": {},
         "opened": false,
         "itemType": {},
-        "tagIndex": 14
+        "tagIndex": 15
       },
       "name_": "dev"
     }

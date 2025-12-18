@@ -3,7 +3,7 @@
   "additionalMetadataBeforeArchiving": {
     "addMetadata": true,
     "dateFormat": "YYYY-MM-DD",
-    "metadata": "🔒 {{date}} 🕸️ {{headingChain}}"
+    "metadata": "{{date}} {{headingChain}}"
   },
   "additionalTaskPattern": "",
   "archiveAllCheckedTaskTypes": false,
@@ -16,7 +16,7 @@
   "defaultArchiveFileName": "{{sourceFileName}} (archive)",
   "headings": [
     {
-      "text": "Archives 🗃️"
+      "text": "Archives"
     }
   ],
   "listItems": [],
