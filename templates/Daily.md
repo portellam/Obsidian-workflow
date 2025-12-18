@@ -30,6 +30,7 @@ ___
 
 
 
+
 ## Inbox
 ___
 > [!SUMMARY] Files Inbox
@@ -62,16 +63,11 @@ ___
 > (heading includes Habits) AND (heading includes Bad)
 > group by function '%%' + (task.heading.includes("Bad Yearly Habits") ? "1" : task.heading.includes("Bad Quarterly Habits") ? "2" : task.heading.includes("Bad Monthly Habits") ? "3" : task.heading.includes("Bad Weekly Habits") ? "4" : task.heading.includes("Bad Daily Habits") ? "5" : "6") + '%%' + task.heading + " > " + task.file.filenameWithoutExtension + " > " + task.tags
 > ```
-___
 ### Good Daily Habits
 
 
 
-
-
 ### Bad Daily Habits
-
-
 
 
 
@@ -112,9 +108,9 @@ ___
 > heading includes Done
 > group by heading
 > ```
-
-## Tasks: To Do
+## Tasks
 ___
+### To Do
 > [!RED] Yesterday's Tasks
 > ```tasks
 > not done
@@ -142,9 +138,32 @@ ___
 > is recurring
 > happens on or before <% today %>
 > ```
-## Projects: To Do
+### To Review
+> [!YELLOW] New Tasks
+> ```tasks
+> not done
+> description does not include ]]
+> created on <% moment(tp.file.title, "YYYY-MM-DD").format("YYYY-MM-DD") %>
+> group by filename
+> ```
+
+> [!PINK] Cancelled Tasks
+> ```tasks
+> description does not include ]]
+> cancelled on <% moment(tp.file.title, "YYYY-MM-DD").format("YYYY-MM-DD") %>
+> group by filename
+> ```
+
+> [!GREEN] Done Tasks 
+> ```tasks
+> description does not include ]]
+> done on <% moment(tp.file.title, "YYYY-MM-DD").format("YYYY-MM-DD") %>
+> group by filename
+> ```
+## Projects
 ___
-> [!YELLOW]  Future Projects
+### To Do
+> [!RED]  Future Projects
 > ```tasks
 > not done
 > description includes ]]
@@ -152,47 +171,19 @@ ___
 > group by happens
 > ```
 
-> [!BLUE] Waiting Projects
+> [!ORANGE] Waiting Projects
 > ```tasks
 > not done
 > tags include #waiting
 > ```
 
-> [!PURPLE] Delegated Projects
+> [!YELLOW] Delegated Projects
 > ```tasks
 > not done
 > tags include #delegated
 > ```
-
-## Tasks: To Review
-___
-
-> [!ORANGE] TASKS NEW
-> ```tasks
-> not done
-> description does not include ]]
-> created on <% moment(tp.file.title, "YYYY-MM-DD").format("YYYY-MM-DD") %>
-> group by filename
-> ```
-
-> [!GREEN] TASKS DONE 
-> ```tasks
-> description does not include ]]
-> done on <% moment(tp.file.title, "YYYY-MM-DD").format("YYYY-MM-DD") %>
-> group by filename
-> ```
-
-> [!PINK] TASKS UNDONE 
-> ```tasks
-> description does not include ]]
-> cancelled on <% moment(tp.file.title, "YYYY-MM-DD").format("YYYY-MM-DD") %>
-> group by filename
-> ```
-
-## Projects Log
-___
-### New Projects
-> [!ORANGE] PROJECTS NEW 
+### To Review
+> [!YELLOW] New Projects
 > ```tasks
 > not done
 > description does include ]]
@@ -200,19 +191,17 @@ ___
 > group by filename
 > ```
 
-### Done Projects
-> [!GREEN] PROJECTS DONE 
-> ```tasks
-> description does include ]]
-> done on <% moment(tp.file.title, "YYYY-MM-DD").format("YYYY-MM-DD") %>
-> group by filename
-> ```
-
-### Undone Projects
-> [!PINK] PROJECTS UNDONE
+> [!PINK] Cancelled Projects
 > ```tasks
 > description does include ]]
 > cancelled on <% moment(tp.file.title, "YYYY-MM-DD").format("YYYY-MM-DD") %>
+> group by filename
+> ```
+
+> [!GREEN] Done Projects
+> ```tasks
+> description does include ]]
+> done on <% moment(tp.file.title, "YYYY-MM-DD").format("YYYY-MM-DD") %>
 > group by filename
 > ```
 ___
