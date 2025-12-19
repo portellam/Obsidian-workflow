@@ -1,15 +1,16 @@
-.trash/
 .DS_Store
+.trash/
+
+.obsidian/app.json
+
+.obsidian/plugins/*/*
+!.obsidian/plugins/*/data.json
+!.obsidian/plugins/*/manifest.json
 
 .obsidian/workspace
 !.obsidian/workspace.json
 
-.obsidian/app.json
-.obsidian/plugins/*/data.json
-.obsidian/plugins/*/main.js
-.obsidian/plugins/*/styles.css
-
-node_modules/
-
 *.md~
 *.log
+
+node_modules/
