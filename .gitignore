@@ -1,17 +1,22 @@
+.obsidian/*
+!.obsidian/app.json
+!.obsidian/appearance.json
+!.obsidian/community-plugins.json
+!.obsidian/core-plugins.json
+!.obsidian/hotkeys.json
+!.obsidian/plugins/*/data.json
+!.obsidian/plugins/*/manifest.json
+!.obsidian/snippets/
+!.obsidian/themes
+
+.obsidian/graph.json
+.obsidian/workspace
+.obsidian/workspace.json
+
 .DS_Store
 .trash/
 
-.obsidian/app.json
-
-.obsidian/plugins/*/*
-!.obsidian/plugins/*/data.json
-!.obsidian/plugins/*/manifest.json
-
-.obsidian/workspace
-!.obsidian/workspace.json
-
 *.log
 *.md~
-*.md -text
 
 node_modules/
