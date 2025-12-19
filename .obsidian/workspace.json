@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "93acedf266984010",
+        "id": "dee4ac92a0921ef9",
         "type": "tabs",
         "children": [
           {
-            "id": "84128c88cd1be009",
+            "id": "0c554202368716eb",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -179,6 +179,7 @@
   "left-ribbon": {
     "hiddenItems": {
       "periodic-notes:Open today": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
       "audio-recorder:Start/stop recording": false,
       "ribbon-divider:ribbon-divider-682904f9-fdff-4b0b-8aaa-93664a9125f5": false,
       "switcher:Open quick switcher": false,
@@ -195,13 +196,17 @@
       "templates:Insert template": false,
       "ribbon-divider:ribbon-divider-02867fbc-f155-4f2b-9912-dcfc2b3c19a2": false,
       "markdown-importer:Open format converter": false,
+      "obsidian-importer:Open Importer": false,
       "iconic:Open rulebook": false,
       "cmdr:Import from Todoist": true,
       "workspaces:Manage workspace layouts": true,
-      "templater-obsidian:Templater": true
+      "templater-obsidian:Templater": true,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "84128c88cd1be009",
+  "active": "6db78111ac3306e7",
   "lastOpenFiles": [
     "11 - Daily/2025-12-19 Fri.md"
   ]

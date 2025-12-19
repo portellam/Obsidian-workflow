@@ -1,0 +1,13 @@
+/* .side-dock-ribbon { */
+    /* --ribbon-width: 50px;  /* Wider ribbon; default is ~40-50px */ */
+/* } */
+
+.side-dock-ribbon .side-dock-ribbon-action svg {
+    width: 25px !important;   /* Larger icons */
+/*    height: 25x !important;/*
+}
+
+/* Optional: More padding around icons for better click area */
+.side-dock-ribbon .side-dock-ribbon-action {
+    padding: 10px;
+}

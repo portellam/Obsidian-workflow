@@ -8,7 +8,9 @@
     "kanban-search",
     "sync-icon",
     "amoled-theme-code-snippet-fix",
-    "rainbow-tags"
+    "rainbow-tags",
+    "larger-ribbon",
+    "custom-ribbon"
   ],
   "showRibbon": true,
   "baseFontSizeAction": true,
