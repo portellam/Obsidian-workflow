@@ -4,7 +4,7 @@
       "attributes": {
         "suffix": null
       },
-      "opened": true,
+      "opened": false,
       "enable": true,
       "tagDetail": {
         "attributes": {},
@@ -60,7 +60,7 @@
       "attributes": {
         "suffix": null
       },
-      "opened": false,
+      "opened": true,
       "enable": true,
       "tagDetail": {
         "attributes": {},
@@ -74,7 +74,7 @@
       "attributes": {
         "suffix": null
       },
-      "opened": false,
+      "opened": true,
       "enable": true,
       "tagDetail": {
         "attributes": {},
@@ -88,7 +88,7 @@
       "attributes": {
         "suffix": null
       },
-      "opened": false,
+      "opened": true,
       "enable": true,
       "tagDetail": {
         "attributes": {},
@@ -102,7 +102,7 @@
       "attributes": {
         "suffix": null
       },
-      "opened": false,
+      "opened": true,
       "enable": true,
       "tagDetail": {
         "attributes": {},
@@ -116,7 +116,7 @@
       "attributes": {
         "suffix": null
       },
-      "opened": false,
+      "opened": true,
       "enable": true,
       "tagDetail": {
         "attributes": {},
@@ -130,7 +130,7 @@
       "attributes": {
         "suffix": null
       },
-      "opened": false,
+      "opened": true,
       "enable": true,
       "tagDetail": {
         "attributes": {},
@@ -144,7 +144,7 @@
       "attributes": {
         "suffix": null
       },
-      "opened": true,
+      "opened": false,
       "enable": true,
       "tagDetail": {
         "attributes": {},
@@ -158,7 +158,7 @@
       "attributes": {
         "suffix": null
       },
-      "opened": false,
+      "opened": true,
       "enable": true,
       "tagDetail": {
         "attributes": {},
@@ -172,7 +172,7 @@
       "attributes": {
         "suffix": null
       },
-      "opened": false,
+      "opened": true,
       "enable": true,
       "tagDetail": {
         "attributes": {},
@@ -186,7 +186,7 @@
       "attributes": {
         "suffix": null
       },
-      "opened": false,
+      "opened": true,
       "enable": true,
       "tagDetail": {
         "attributes": {},
@@ -200,7 +200,7 @@
       "attributes": {
         "suffix": "📖"
       },
-      "opened": false,
+      "opened": true,
       "enable": true,
       "tagDetail": {
         "attributes": {},
@@ -214,7 +214,7 @@
       "attributes": {
         "suffix": null
       },
-      "opened": false,
+      "opened": true,
       "enable": true,
       "tagDetail": {
         "attributes": {},
@@ -235,6 +235,20 @@
   "TagDetailData": {},
   "MetaFileTagDetails": {
     "templates/Daily-Notes.md": [],
-    "templates/Daily.md": []
+    "templates/Daily.md": [],
+    "50 - Kanban Boards/00 - Kanban Board.md": [
+      "#task-10-6-102",
+      "#task-17-6-198",
+      "#task-24-6-310",
+      "#task-31-6-429"
+    ],
+    "11 - Daily/2025-12-17 Thu.md": [
+      "55-6-1825",
+      "55-6-1825",
+      "56-6-1859",
+      "55-6-1825",
+      "55-6-1825",
+      "55-6-1825"
+    ]
   }
 }
