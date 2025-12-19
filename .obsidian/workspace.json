@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "7fd707f689a4d3eb",
+        "id": "72a266daf9f38912",
         "type": "tabs",
         "children": [
           {
-            "id": "0c1ea555aa7e1f5f",
+            "id": "aba741636bc1710c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "README"
             }
           }
         ]
@@ -70,7 +84,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -152,12 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of README"
             }
           },
           {
@@ -179,11 +195,10 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "periodic-notes:Open today": false,
-      "graph:Open graph view": false,
-      "quickadd:QuickAdd": false,
-      "switcher:Open quick switcher": false,
       "command-palette:Open command palette": false,
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "periodic-notes:Open today": false,
       "ribbon-divider:ribbon-divider-8c89ece2-8c62-4fa3-a715-b43be31a08d5": false,
       "audio-recorder:Start/stop recording": false,
       "iconic:Open rulebook": true,
@@ -202,8 +217,12 @@
       "templates:Insert template": false
     }
   },
-  "active": "0c1ea555aa7e1f5f",
+  "active": "aad4ba647c85ba93",
   "lastOpenFiles": [
+    "OBSIDIAN-WORKFLOW-LICENSE.md",
+    "50 - Kanban Boards/00 - Kanban Board.md",
+    "90 - Media/example.png",
+    "README.md",
     "11 - Daily/2025-12-17 Thu.md",
     "90 - Media/Recording 20251218222745.webm",
     "11 - Daily/2025-12-18 Thu.md",
@@ -212,14 +231,12 @@
     "50 - Canvas/Untitled.canvas",
     "00 - Inbox/Untitled 1.base",
     "00 - Inbox/Untitled 1.md",
-    "50 - Kanban Boards/00 - Kanban Board.md",
     "10 - Periodic Notes/Areas.md",
     "99 - Templates/Daily.md",
     "00 - Inbox/Untitled.base",
     "00 - Inbox/Untitled.md",
     "10 - Periodic Notes",
     "99 - Templates/Weekly.md",
-    "README.md",
     "99 - Templates/Kanban.md",
     "99 - Templates/Monthly-Notes.md",
     "Habits.md",
@@ -234,7 +251,6 @@
     "scripts/tasksync.js",
     "scripts/somedaysync.js",
     "scripts/projectsync.js",
-    "90 - Media/example.png",
     "00 - Inbox/Untitled Kanban.md",
     "_Media/24-01-04_15-52-03_Obsidian.png",
     "media/example.png",
