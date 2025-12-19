@@ -1,4 +1,5 @@
 .obsidian/*
+
 !.obsidian/app.json
 !.obsidian/appearance.json
 !.obsidian/community-plugins.json
@@ -8,10 +9,7 @@
 !.obsidian/plugins/*/manifest.json
 !.obsidian/snippets/
 !.obsidian/themes
-
-.obsidian/graph.json
-.obsidian/workspace
-.obsidian/workspace.json
+!.obsidian/workspace.json
 
 .DS_Store
 .trash/

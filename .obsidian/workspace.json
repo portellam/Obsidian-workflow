@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "840f66d6e70e4975",
+    "type": "split",
+    "children": [
+      {
+        "id": "93acedf266984010",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "84128c88cd1be009",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "11 - Daily/2025-12-19 Fri.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2025-12-19 Fri"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f6ef253f976cc4c2",
+    "type": "split",
+    "children": [
+      {
+        "id": "4168243fd6841978",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6db78111ac3306e7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "aad4ba647c85ba93",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "57adf357db426c75",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8926c8e4c02a8183",
+    "type": "split",
+    "children": [
+      {
+        "id": "2bc24c9c17b30e71",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4c72827987c497ce",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "11 - Daily/2025-12-19 Fri.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2025-12-19 Fri"
+            }
+          },
+          {
+            "id": "f4601d036f6c3e8e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "11 - Daily/2025-12-19 Fri.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2025-12-19 Fri"
+            }
+          },
+          {
+            "id": "28b2760436dacd8c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "aabefdcf3cf3b153",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "199d8a6a1884421d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "11 - Daily/2025-12-19 Fri.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2025-12-19 Fri"
+            }
+          },
+          {
+            "id": "da04332b4cd4523f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "periodic-notes:Open today": false,
+      "command-palette:Open command palette": false,
+      "graph:Open graph view": false,
+      "switcher:Open quick switcher": false,
+      "ribbon-divider:ribbon-divider-8c89ece2-8c62-4fa3-a715-b43be31a08d5": false,
+      "audio-recorder:Start/stop recording": false,
+      "iconic:Open rulebook": true,
+      "markdown-importer:Open format converter": true,
+      "ribbon-divider:ribbon-divider-0922a96a-f8fd-4934-9aac-2665e72ed62f": false,
+      "bases:Create new base": false,
+      "obsidian-kanban:Create new board": false,
+      "canvas:Create new canvas": false,
+      "cmdr:Create Something": false,
+      "cmdr:Import from Todoist": true,
+      "ribbon-divider:ribbon-divider-02867fbc-f155-4f2b-9912-dcfc2b3c19a2": false,
+      "workspaces:Manage workspace layouts": false,
+      "ribbon-divider:ribbon-divider-682904f9-fdff-4b0b-8aaa-93664a9125f5": false,
+      "templater-obsidian:Templater": true,
+      "callout-manager:Insert Callout": false,
+      "templates:Insert template": false
+    }
+  },
+  "active": "84128c88cd1be009",
+  "lastOpenFiles": [
+    "OBSIDIAN-WORKFLOW-LICENSE.md",
+    "README.md",
+    "11 - Daily/2025-12-19 Fri.md"
+  ]
+}
