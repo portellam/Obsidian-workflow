@@ -1,7 +1,7 @@
 {
   "accentColor": "",
   "theme": "system",
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "",
   "baseFontSize": 16,
   "enabledCssSnippets": [
     "extended-colorschemes",
@@ -9,5 +9,7 @@
     "sync-icon",
     "amoled-theme-code-snippet-fix",
     "rainbow-tags"
-  ]
+  ],
+  "showRibbon": true,
+  "baseFontSizeAction": false
 }

@@ -7,7 +7,6 @@
   "templater-obsidian",
   "cmdr",
   "obsidian-scroll-to-top-plugin",
-  "obsidian-icon-folder",
   "file-explorer-note-count",
   "obsidian-filename-heading-sync",
   "obsidian-colorful-tag",
@@ -38,6 +37,6 @@
   "obsidian-tasks-plugin",
   "quickadd",
   "omnisearch",
-  "iconic",
-  "ribbon-divider"
+  "ribbon-divider",
+  "iconic"
 ]
