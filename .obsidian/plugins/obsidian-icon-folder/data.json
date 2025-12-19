@@ -40,6 +40,10 @@
     "debugMode": false,
     "useInternalPlugins": false
   },
-  "10 - Periodic Notes": "📅",
-  "images": "📎"
+  "10 - Daily Notes": "📅",
+  "11 - Weekly Notes": "📅",
+  "12 - Monthly Notes": "📅",
+  "13 - Quarterly Notes": "📅",
+  "14 - Yearly Notes": "📅",
+  "90 - Media": "📎"
 }
