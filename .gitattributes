@@ -1,1 +1,5 @@
 * text=auto
+*.json -text
+*.json text eol=lf
+*.md -text
+*.md text eol=lf
