@@ -1,0 +1,5 @@
+/* Example CSS to change the ribbon color */
+.ribbon {
+    background-color: #e63946; /* Change this to your preferred color */
+    color: white; /* Change icon/text color */
+}

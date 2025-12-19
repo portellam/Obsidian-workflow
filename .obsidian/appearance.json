@@ -1,7 +1,7 @@
 {
   "accentColor": "",
   "theme": "system",
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "RetroOS 98",
   "baseFontSize": 16,
   "enabledCssSnippets": [
     "extended-colorschemes",
@@ -11,5 +11,8 @@
     "rainbow-tags"
   ],
   "showRibbon": true,
-  "baseFontSizeAction": false
+  "baseFontSizeAction": true,
+  "textFontFamily": "Segoe UI",
+  "interfaceFontFamily": "Segoe UI",
+  "monospaceFontFamily": "Segoe UI"
 }
