@@ -330,7 +330,8 @@
           "openFile": true,
           "openFileInMode": "default"
         }
-      ]
+      ],
+      "collapsed": false
     }
   ],
   "macros": [
