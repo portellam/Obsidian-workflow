@@ -70,8 +70,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -202,7 +201,7 @@
       "templates:Insert template": false
     }
   },
-  "active": "7dc6d5944c7cbf65",
+  "active": "6db78111ac3306e7",
   "lastOpenFiles": [
     "11 - Daily/2025-12-18 Thu.md",
     "README.md",
