@@ -8,7 +8,7 @@ aliases:
 share: false
 ---
 
-# <% moment(tp.file.title, "YYYY-MM-DD").format("YYYY-MM-DD") %>
+# Daily-Notes
 
 <%*
 const currentMoment = moment(tp.file.title, "YYYY-MM-DD");

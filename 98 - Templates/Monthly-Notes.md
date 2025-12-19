@@ -1,17 +1,17 @@
 ---
-title: <% moment(tp.file.title, "GGGG-[W]WW").format("GGGG-[W]WW") %>
+title: <% moment(tp.file.title, "YYYY-MM").format("YYYY-MM") %>
 date: <% moment(tp.file.creation_date()).format("YYYY-MM-DD HH:mm:ss") %>
 lastmod: <% moment(tp.file.creation_date()).format("YYYY-MM-DD HH:mm:ss") %>
-categories: weekly
+categories: monthly
 tags:
 aliases:
 share: false
 ---
 
-# <% moment(tp.file.title, "GGGG-[W]WW").format("GGGG-[W]WW") %>
+# Monthly-Notes
 
 <%*
-const currentMoment = moment(tp.file.title, "GGGG-[W]WW");
+const currentMoment = moment(tp.file.title, "YYYY-MM");
 const hash = '# ';
 const slash = ' / ';
 const pipe = ' | ';
@@ -20,43 +20,38 @@ const rightAngle = ' ❯';
 tR += leftAngle;
 tR += '[[' + currentMoment.format('YYYY') + ']]' + slash;
 tR += '[[' + currentMoment.format('YYYY-[Q]Q|[Q]Q') + ']]' + slash;
-tR += '[[' + currentMoment.format('YYYY-MM|MMMM') + ']]' + slash;
-tR += '[[' + currentMoment.format('GGGG-[W]WW') + '|' + currentMoment.format('[Week] WW') + ']]';
+tR += '[[' + currentMoment.format('YYYY-MM|MMMM') + ']]';
 tR += rightAngle;
 tR += '\n';
 tR += '\n';
 tR += leftAngle;
-currentMoment.add(-1,'weeks');
-tR += '[[' + currentMoment.format('GGGG-[W]WW|[Week] WW') + ']]' + pipe;
-currentMoment.add(1,'weeks');
-tR += currentMoment.format('[Week] WW') + pipe;
-currentMoment.add(1,'weeks');
+currentMoment.add(-1,'months');
+tR += '[[' + currentMoment.format('YYYY-MM|MMMM') + ']]' + pipe;
+currentMoment.add(1,'months');
+tR += currentMoment.format('MMMM') + pipe;
+currentMoment.add(1,'months');
+tR += '[[' + currentMoment.format('YYYY-MM|MMMM') + ']]';
+currentMoment.add(-1,'months');
+tR += rightAngle;
+tR += '\n';
+tR += '\n';
+tR += leftAngle;
+const thisMonth = currentMoment.month();
+currentMoment.startOf('week');
+do {
 tR += '[[' + currentMoment.format('GGGG-[W]WW|[Week] WW') + ']]';
-currentMoment.add(-1,'weeks');
-tR += rightAngle;
-tR += '\n';
-tR += '\n';
-tR += leftAngle;
-tR += '[[' + currentMoment.format('YYYY-MM-DD|ddd Do') + ']]' + pipe;
-currentMoment.add(1,'days');
-tR += '[[' + currentMoment.format('YYYY-MM-DD|ddd Do') + ']]' + pipe;
-currentMoment.add(1,'days');
-tR += '[[' + currentMoment.format('YYYY-MM-DD|ddd Do') + ']]' + pipe;
-currentMoment.add(1,'days');
-tR += '[[' + currentMoment.format('YYYY-MM-DD|ddd Do') + ']]' + pipe;
-currentMoment.add(1,'days');
-tR += '[[' + currentMoment.format('YYYY-MM-DD|ddd Do') + ']]' + pipe;
-currentMoment.add(1,'days');
-tR += '[[' + currentMoment.format('YYYY-MM-DD|ddd Do') + ']]' + pipe;
-currentMoment.add(1,'days');
-tR += '[[' + currentMoment.format('YYYY-MM-DD|ddd Do') + ']]';
+currentMoment.add(1,'weeks');
+if (currentMoment.month() == thisMonth)
+{ tR += pipe}
+} while (currentMoment.month() == thisMonth)
+currentMoment.subtract(1, 'weeks');
 tR += rightAngle;
 %>
 
 ## Dashboard 🗺️
 
 ```dataviewjs
-await dv.view("scripts", {pages: "dv.pages().file.where(f => f.folder != '_Sources' && f.folder != '04 - Archives' && f.folder != 'templates').tasks.where(t => !t.text.includes('🔁'))", view: "week", firstDayOfWeek: "1", options: "style8 filter", dailyNoteFolder: "10 - Daily"})
+await dv.view("scripts", {pages: "dv.pages().file.where(f => f.folder != '_Sources' && f.folder != '04 - Archives' && f.folder != 'templates').tasks.where(t => !t.text.includes('🔁'))", view: "month", firstDayOfWeek: "1", options: "style9 filter", dailyNoteFolder: "10 - Daily"})
 ```
 
 > [!CHECK]+ Projects 🎯
@@ -65,7 +60,7 @@ await dv.view("scripts", {pages: "dv.pages().file.where(f => f.folder != '_Sourc
 > not done
 > is not recurring
 > description includes ]]
-> filter by function task.happens.moment?.isSameOrBefore('<% moment(tp.file.title, "GGGG-[W]WW").format("GGGG-[W]WW") %>', 'week') || false
+> filter by function task.happens.moment?.isSameOrBefore('<% moment(tp.file.title, "YYYY-MM").format("YYYY-MM") %>', 'month') || false
 > group by happens
 > ```
 
@@ -75,7 +70,7 @@ await dv.view("scripts", {pages: "dv.pages().file.where(f => f.folder != '_Sourc
 > not done
 > is not recurring
 > description does not include ]]
-> filter by function task.happens.moment?.isSameOrBefore('<% moment(tp.file.title, "GGGG-[W]WW").format("GGGG-[W]WW") %>', 'week') || false
+> filter by function task.happens.moment?.isSameOrBefore('<% moment(tp.file.title, "YYYY-MM").format("YYYY-MM") %>', 'month') || false
 > group by happens
 > ```
 
@@ -84,7 +79,7 @@ await dv.view("scripts", {pages: "dv.pages().file.where(f => f.folder != '_Sourc
 > ```tasks
 > not done
 > is recurring
-> filter by function task.happens.moment?.isSameOrBefore('<% moment(tp.file.title, "GGGG-[W]WW").format("GGGG-[W]WW") %>', 'week') || false
+> filter by function task.happens.moment?.isSameOrBefore('<% moment(tp.file.title, "YYYY-MM").format("YYYY-MM") %>', 'month') || false
 > group by happens
 > ```
 
@@ -224,7 +219,7 @@ await dv.view("scripts", {pages: "dv.pages().file.where(f => f.folder != '_Sourc
 > ```tasks
 > not done
 > description includes ]]
-> created on <% moment(tp.file.title, "GGGG-[W]WW").format("GGGG-[W]WW") %>
+> created on <% moment(tp.file.title, "YYYY-MM").format("YYYY-MM") %>
 > group by created
 > ```
 
@@ -233,7 +228,7 @@ await dv.view("scripts", {pages: "dv.pages().file.where(f => f.folder != '_Sourc
 > ```tasks
 > not done
 > description does not include ]]
-> created on <% moment(tp.file.title, "GGGG-[W]WW").format("GGGG-[W]WW") %>
+> created on <% moment(tp.file.title, "YYYY-MM").format("YYYY-MM") %>
 > group by created
 > ```
 
@@ -241,7 +236,7 @@ await dv.view("scripts", {pages: "dv.pages().file.where(f => f.folder != '_Sourc
 >
 > ```tasks
 > description includes ]]
-> done in <% moment(tp.file.title, "GGGG-[W]WW").format("GGGG-[W]WW") %>
+> done in <% moment(tp.file.title, "YYYY-MM").format("YYYY-MM") %>
 > group by done
 > ```
 
@@ -249,7 +244,7 @@ await dv.view("scripts", {pages: "dv.pages().file.where(f => f.folder != '_Sourc
 >
 > ```tasks
 > description does not include ]]
-> done in <% moment(tp.file.title, "GGGG-[W]WW").format("GGGG-[W]WW") %>
+> done in <% moment(tp.file.title, "YYYY-MM").format("YYYY-MM") %>
 > group by done
 > ```
 
@@ -257,7 +252,7 @@ await dv.view("scripts", {pages: "dv.pages().file.where(f => f.folder != '_Sourc
 >
 > ```tasks
 > description includes ]]
-> cancelled on <% moment(tp.file.title, "GGGG-[W]WW").format("GGGG-[W]WW") %>
+> cancelled on <% moment(tp.file.title, "YYYY-MM").format("YYYY-MM") %>
 > group by filename
 > ```
 
@@ -265,17 +260,13 @@ await dv.view("scripts", {pages: "dv.pages().file.where(f => f.folder != '_Sourc
 >
 > ```tasks
 > description does not include ]]
-> cancelled on <% moment(tp.file.title, "GGGG-[W]WW").format("GGGG-[W]WW") %>
+> cancelled on <% moment(tp.file.title, "YYYY-MM").format("YYYY-MM") %>
 > group by filename
 > ```
 
-## Weekly Focus 🔥 & Goals 🎯
+## Monthly Focus 🔥 & Goals 🎯
 
-1. `Declutter & mind dump.` (GET CLEAR)
-2. `Reflect on the past week.` (GET CLEAR)
-3. `Get current on goals & projects.` (GET CURRENT)
-4. `Plan the week ahead.` (GET CURRENT)
-5. `Think bigger.` (GET CREATIVE)
+- `Add some C.S.S (Continue Start Stop) with Habits & DWI.`
 
 ## Journal 📔
 

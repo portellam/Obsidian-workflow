@@ -1,3 +1,4 @@
+# Filename-Template
 <%*
 let templater = app.plugins.plugins["templater-obsidian"];
 let templateFolder = templater.settings.templates_folder;

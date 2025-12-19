@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "99 - Templates",
+  "templates_folder": "98 - Templates",
   "templates_pairs": [
     [
       "",
@@ -16,7 +16,7 @@
   "folder_templates": [
     {
       "folder": "/",
-      "template": "99 - Templates/Filename-Template.md"
+      "template": "98 - Templates/Filename-Template.md"
     }
   ],
   "enable_file_templates": false,

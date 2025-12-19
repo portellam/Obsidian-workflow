@@ -8,5 +8,5 @@ aliases:
 share: false 
 ---
 
-# <% tp.file.title %>
+# Untitled
 

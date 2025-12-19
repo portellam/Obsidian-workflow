@@ -1,47 +1,46 @@
 ---
-title: <% moment(tp.file.title, "YYYY").format("YYYY") %>
+title: <% moment(tp.file.title, "YYYY-[Q]Q").format("YYYY-[Q]Q") %>
 date: <% moment(tp.file.creation_date()).format("YYYY-MM-DD HH:mm:ss") %>
 lastmod: <% moment(tp.file.creation_date()).format("YYYY-MM-DD HH:mm:ss") %>
-categories: yearly
+categories: quarterly
 tags:
 aliases:
 share: false
 ---
 
-# <% moment(tp.file.title, "YYYY").format("YYYY") %>
+# Quarterly-Notes
 
 <%*
-const currentMoment = moment(tp.file.title, "YYYY");
+const currentMoment = moment(tp.file.title, "YYYY-[Q]Q");
 const hash = '# ';
 const slash = ' / ';
 const pipe = ' | ';
 const leftAngle = '❮ ';
 const rightAngle = ' ❯';
 tR += leftAngle;
-tR += '[[' + currentMoment.format('YYYY') + ']]';
+tR += '[[' + currentMoment.format('YYYY') + ']]' + slash;
+tR += '[[' + currentMoment.format('YYYY-[Q]Q|[Q]Q') + ']]';
 tR += rightAngle;
 tR += '\n';
 tR += '\n';
 tR += leftAngle;
-currentMoment.add(-1,'years');
-tR += '[[' + currentMoment.format('YYYY') + ']]' + pipe;
-currentMoment.add(1,'years');
-tR += currentMoment.format('YYYY') + pipe;
-currentMoment.add(1,'years');
-tR += '[[' + currentMoment.format('YYYY') + ']]';
-currentMoment.add(-1,'years');
-tR += rightAngle;
-tR += '\n';
-tR += '\n';
-tR += leftAngle;
+currentMoment.add(-1,'quarters');
 tR += '[[' + currentMoment.format('YYYY-[Q]Q|[Q]Q') + ']]' + pipe;
 currentMoment.add(1,'quarters');
-tR += '[[' + currentMoment.format('YYYY-[Q]Q|[Q]Q') + ']]' + pipe;
-currentMoment.add(1,'quarters');
-tR += '[[' + currentMoment.format('YYYY-[Q]Q|[Q]Q') + ']]' + pipe;
+tR += currentMoment.format('[Q]Q') + pipe;
 currentMoment.add(1,'quarters');
 tR += '[[' + currentMoment.format('YYYY-[Q]Q|[Q]Q') + ']]';
-currentMoment.add(1,'quarters');
+currentMoment.add(-1,'quarters');
+tR += rightAngle;
+tR += '\n';
+tR += '\n';
+tR += leftAngle;
+tR += '[[' + currentMoment.format('YYYY-MM|MMMM') + ']]' + pipe;
+currentMoment.add(1,'months');
+tR += '[[' + currentMoment.format('YYYY-MM|MMMM') + ']]' + pipe;
+currentMoment.add(1,'months');
+tR += '[[' + currentMoment.format('YYYY-MM|MMMM') + ']]';
+currentMoment.add(1,'months');
 tR += rightAngle;
 %>
 
@@ -53,7 +52,7 @@ tR += rightAngle;
 > not done
 > is not recurring
 > description includes ]]
-> filter by function task.happens.moment?.isSameOrBefore('<% moment(tp.file.title, "YYYY").format("YYYY") %>', 'year') || false
+> (happens in <% moment(tp.file.title, "YYYY-[Q]Q").format("YYYY-[Q]Q") %>) OR (happens before <% moment(tp.file.title, "YYYY-[Q]Q").format("YYYY-[Q]Q") %>)
 > group by happens
 > ```
 
@@ -63,7 +62,7 @@ tR += rightAngle;
 > not done
 > is not recurring
 > description does not include ]]
-> filter by function task.happens.moment?.isSameOrBefore('<% moment(tp.file.title, "YYYY").format("YYYY") %>', 'year') || false
+> (happens in <% moment(tp.file.title, "YYYY-[Q]Q").format("YYYY-[Q]Q") %>) OR (happens before <% moment(tp.file.title, "YYYY-[Q]Q").format("YYYY-[Q]Q") %>)
 > group by happens
 > ```
 
@@ -72,7 +71,7 @@ tR += rightAngle;
 > ```tasks
 > not done
 > is recurring
-> filter by function task.happens.moment?.isSameOrBefore('<% moment(tp.file.title, "YYYY").format("YYYY") %>', 'year') || false
+> filter by function task.happens.moment?.isSameOrBefore('<% moment(tp.file.title, "YYYY-QQ").add(2,'month').format("YYYY-MM") %>', 'month') || false
 > group by happens
 > ```
 
@@ -212,7 +211,7 @@ tR += rightAngle;
 > ```tasks
 > not done
 > description includes ]]
-> created on <% moment(tp.file.title, "YYYY").format("YYYY") %>
+> created on <% moment(tp.file.title, "YYYY-[Q]Q").format("YYYY-[Q]Q") %>
 > group by created
 > ```
 
@@ -221,7 +220,7 @@ tR += rightAngle;
 > ```tasks
 > not done
 > description does not include ]]
-> created on <% moment(tp.file.title, "YYYY").format("YYYY") %>
+> created on <% moment(tp.file.title, "YYYY-[Q]Q").format("YYYY-[Q]Q") %>
 > group by created
 > ```
 
@@ -229,7 +228,7 @@ tR += rightAngle;
 >
 > ```tasks
 > description includes ]]
-> done in <% moment(tp.file.title, "YYYY").format("YYYY") %>
+> done in <% moment(tp.file.title, "YYYY-[Q]Q").format("YYYY-[Q]Q") %>
 > group by done
 > ```
 
@@ -237,7 +236,7 @@ tR += rightAngle;
 >
 > ```tasks
 > description does not include ]]
-> done in <% moment(tp.file.title, "YYYY").format("YYYY") %>
+> done in <% moment(tp.file.title, "YYYY-[Q]Q").format("YYYY-[Q]Q") %>
 > group by done
 > ```
 
@@ -245,7 +244,7 @@ tR += rightAngle;
 >
 > ```tasks
 > description includes ]]
-> cancelled on <% moment(tp.file.title, "YYYY").format("YYYY") %>
+> cancelled on <% moment(tp.file.title, "YYYY-[Q]Q").format("YYYY-[Q]Q") %>
 > group by filename
 > ```
 
@@ -253,13 +252,13 @@ tR += rightAngle;
 >
 > ```tasks
 > description does not include ]]
-> cancelled on <% moment(tp.file.title, "YYYY").format("YYYY") %>
+> cancelled on <% moment(tp.file.title, "YYYY-[Q]Q").format("YYYY-[Q]Q") %>
 > group by filename
 > ```
 
-## Yearly Focus 🔥 & Goals 🎯
+## Quarterly Focus 🔥 & Goals 🎯
 
-- `Add some goals for the year`
+- `Add some goals from yearly goals.`
 
 ## Journal 📔
 
