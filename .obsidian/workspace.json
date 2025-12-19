@@ -11,24 +11,10 @@
             "id": "84128c88cd1be009",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "11 - Daily/2025-12-19 Fri.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2025-12-19 Fri"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -104,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "11 - Daily/2025-12-19 Fri.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 2025-12-19 Fri"
+              "title": "Backlinks"
             }
           },
           {
@@ -194,31 +179,30 @@
   "left-ribbon": {
     "hiddenItems": {
       "periodic-notes:Open today": false,
+      "audio-recorder:Start/stop recording": false,
+      "ribbon-divider:ribbon-divider-682904f9-fdff-4b0b-8aaa-93664a9125f5": false,
+      "switcher:Open quick switcher": false,
       "command-palette:Open command palette": false,
       "graph:Open graph view": false,
-      "switcher:Open quick switcher": false,
+      "workspaces-plus:Manage workspaces": false,
       "ribbon-divider:ribbon-divider-8c89ece2-8c62-4fa3-a715-b43be31a08d5": false,
-      "audio-recorder:Start/stop recording": false,
-      "iconic:Open rulebook": true,
-      "markdown-importer:Open format converter": true,
-      "ribbon-divider:ribbon-divider-0922a96a-f8fd-4934-9aac-2665e72ed62f": false,
       "bases:Create new base": false,
       "obsidian-kanban:Create new board": false,
       "canvas:Create new canvas": false,
       "cmdr:Create Something": false,
-      "cmdr:Import from Todoist": true,
-      "ribbon-divider:ribbon-divider-02867fbc-f155-4f2b-9912-dcfc2b3c19a2": false,
-      "workspaces:Manage workspace layouts": false,
-      "ribbon-divider:ribbon-divider-682904f9-fdff-4b0b-8aaa-93664a9125f5": false,
-      "templater-obsidian:Templater": true,
+      "ribbon-divider:ribbon-divider-0922a96a-f8fd-4934-9aac-2665e72ed62f": false,
       "callout-manager:Insert Callout": false,
-      "templates:Insert template": false
+      "templates:Insert template": false,
+      "ribbon-divider:ribbon-divider-02867fbc-f155-4f2b-9912-dcfc2b3c19a2": false,
+      "markdown-importer:Open format converter": false,
+      "iconic:Open rulebook": false,
+      "cmdr:Import from Todoist": true,
+      "workspaces:Manage workspace layouts": true,
+      "templater-obsidian:Templater": true
     }
   },
   "active": "84128c88cd1be009",
   "lastOpenFiles": [
-    "OBSIDIAN-WORKFLOW-LICENSE.md",
-    "README.md",
     "11 - Daily/2025-12-19 Fri.md"
   ]
 }
