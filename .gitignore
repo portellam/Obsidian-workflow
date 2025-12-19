@@ -2,11 +2,12 @@
 .DS_Store
 
 .obsidian/workspace
-.obsidian/workspace.json
+!.obsidian/workspace.json
+
 .obsidian/app.json
-!.obsidian/plugins/*/data.json
-!.obsidian/plugins/*/main.js
-!.obsidian/plugins/*/styles.css
+.obsidian/plugins/*/data.json
+.obsidian/plugins/*/main.js
+.obsidian/plugins/*/styles.css
 
 node_modules/
 

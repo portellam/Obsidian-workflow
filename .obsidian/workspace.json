@@ -1,0 +1,250 @@
+{
+  "main": {
+    "id": "840f66d6e70e4975",
+    "type": "split",
+    "children": [
+      {
+        "id": "7fd707f689a4d3eb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0c1ea555aa7e1f5f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f6ef253f976cc4c2",
+    "type": "split",
+    "children": [
+      {
+        "id": "4168243fd6841978",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6db78111ac3306e7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "aad4ba647c85ba93",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "57adf357db426c75",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f3654632d5e36948",
+    "type": "split",
+    "children": [
+      {
+        "id": "1e449b603d72767d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ad59ba6ee825b5dc",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Journal 2024 📔.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Journal 2024 📔"
+            }
+          },
+          {
+            "id": "c288ef077e662a1d",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Journal 2024 📔.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Journal 2024 📔"
+            }
+          },
+          {
+            "id": "dceba15dfcc72e2f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8ea9a07a1c5c9b07",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "d3275a6f3466774c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "147171cc3494f7e1",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 303.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "periodic-notes:Open today": false,
+      "graph:Open graph view": false,
+      "quickadd:QuickAdd": false,
+      "switcher:Open quick switcher": false,
+      "command-palette:Open command palette": false,
+      "ribbon-divider:ribbon-divider-8c89ece2-8c62-4fa3-a715-b43be31a08d5": false,
+      "audio-recorder:Start/stop recording": false,
+      "iconic:Open rulebook": true,
+      "markdown-importer:Open format converter": true,
+      "ribbon-divider:ribbon-divider-0922a96a-f8fd-4934-9aac-2665e72ed62f": false,
+      "bases:Create new base": false,
+      "obsidian-kanban:Create new board": false,
+      "canvas:Create new canvas": false,
+      "cmdr:Create Something": false,
+      "cmdr:Import from Todoist": true,
+      "ribbon-divider:ribbon-divider-02867fbc-f155-4f2b-9912-dcfc2b3c19a2": false,
+      "workspaces:Manage workspace layouts": false,
+      "ribbon-divider:ribbon-divider-682904f9-fdff-4b0b-8aaa-93664a9125f5": false,
+      "templater-obsidian:Templater": true,
+      "callout-manager:Insert Callout": false,
+      "templates:Insert template": false
+    }
+  },
+  "active": "0c1ea555aa7e1f5f",
+  "lastOpenFiles": [
+    "11 - Daily/2025-12-17 Thu.md",
+    "90 - Media/Recording 20251218222745.webm",
+    "11 - Daily/2025-12-18 Thu.md",
+    "99 - Templates/Daily-Notes.md",
+    "99 - Templates/Weekly-Notes.md",
+    "50 - Canvas/Untitled.canvas",
+    "00 - Inbox/Untitled 1.base",
+    "00 - Inbox/Untitled 1.md",
+    "50 - Kanban Boards/00 - Kanban Board.md",
+    "10 - Periodic Notes/Areas.md",
+    "99 - Templates/Daily.md",
+    "00 - Inbox/Untitled.base",
+    "00 - Inbox/Untitled.md",
+    "10 - Periodic Notes",
+    "99 - Templates/Weekly.md",
+    "README.md",
+    "99 - Templates/Kanban.md",
+    "99 - Templates/Monthly-Notes.md",
+    "Habits.md",
+    "99 - Templates/Quarterly-Notes.md",
+    "99 - Templates/Areas.md",
+    "99 - Templates/Yearly-Notes.md",
+    "99 - Templates/Untitled.md",
+    "99 - Templates/Filename-Template.md",
+    "99 - Templates",
+    "scripts/view.js",
+    "scripts/view.css",
+    "scripts/tasksync.js",
+    "scripts/somedaysync.js",
+    "scripts/projectsync.js",
+    "90 - Media/example.png",
+    "00 - Inbox/Untitled Kanban.md",
+    "_Media/24-01-04_15-52-03_Obsidian.png",
+    "media/example.png",
+    "Someday Maybe 💭.md",
+    "Passions Backlog 🎮.md",
+    "Journal 2024 📔.md",
+    "91 - Canvas/Untitled.canvas",
+    "91 - Canvas/Untitled 1.canvas",
+    "Untitled.canvas",
+    "11 - Daily/2025-12-17  2025-12-18 Thu  2025-12-19.md",
+    "10 - Daily Notes/2025-12-19.md"
+  ]
+}
