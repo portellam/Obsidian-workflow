@@ -35,9 +35,12 @@
   "symbols-prettifier",
   "tag-wrangler",
   "obsidian-tasks-plugin",
-  "omnisearch",
   "ribbon-divider",
   "iconic",
   "obsidian-minimal-settings",
-  "workspaces-plus"
+  "workspaces-plus",
+  "obsidian-importer",
+  "obsidian-excalidraw-plugin",
+  "obsidian-annotator",
+  "obsidian-dictionary-plugin"
 ]
