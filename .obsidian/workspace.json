@@ -11,10 +11,24 @@
             "id": "7dc6d5944c7cbf65",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "11 - Daily/2025-12-18 Thu.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "2025-12-18 Thu"
             }
           }
         ]
@@ -152,12 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "11 - Daily/2025-12-18 Thu.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of 2025-12-18 Thu"
             }
           },
           {
@@ -201,7 +216,7 @@
       "templates:Insert template": false
     }
   },
-  "active": "6db78111ac3306e7",
+  "active": "7dc6d5944c7cbf65",
   "lastOpenFiles": [
     "11 - Daily/2025-12-18 Thu.md",
     "README.md",
