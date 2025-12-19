@@ -19,10 +19,10 @@ const folderMap = {
     area: "02 - Areas",
     project: "01 - Projects",
     inbox: "00 - Inbox",
-    daily: "11 - Daily"
+    daily: "10 - Daily"
 };
 
-const folder = folderMap[tp.frontmatter.categories] || "11 - Daily";
+const folder = folderMap[tp.frontmatter.categories] || "10 - Daily";
 await tp.file.move(`${folder}/${tp.file.title}`);
 %># [[<% today %>]]
 ___
@@ -52,19 +52,15 @@ ___
 > [!GREEN]+ Good Habits
 > ```tasks
 > not done
-> is not recurring
-> (path includes "11 - Daily") OR (path includes "12 - Weekly") OR (path includes "13 - Monthly") OR (path includes "14 - Quarterly") OR (path includes "15 - Yearly")
-> (heading includes Habits) AND (heading includes Good)
-> 
+> is recurring
+> (heading includes Bad) AND (heading includes Habits) AND ((heading includes Daily) OR (heading includes Weekly) OR (heading includes Monthly) OR (heading includes Quarterly) OR (heading includes Yearly))
 > ```
 
 > [!RED]+ Bad Habits
 > ```tasks
 > not done
-> is not recurring
-> (path includes "11 - Daily") OR (path includes "12 - Weekly") OR (path includes "13 - Monthly") OR (path includes "14 - Quarterly") OR (path includes "15 - Yearly")
-> (heading includes Habits) AND (heading includes Bad)
-> group by function '%%' + (task.heading.includes("Bad Yearly Habits") ? "1" : task.heading.includes("Bad Quarterly Habits") ? "2" : task.heading.includes("Bad Monthly Habits") ? "3" : task.heading.includes("Bad Weekly Habits") ? "4" : task.heading.includes("Bad Daily Habits") ? "5" : "6") + '%%' + task.heading + " > " + task.file.filenameWithoutExtension + " > " + task.tags
+> is recurring
+> (heading includes Bad) AND (heading includes Habits) AND ((heading includes Daily) OR (heading includes Weekly) OR (heading includes Monthly) OR (heading includes Quarterly) OR (heading includes Yearly))
 > ```
 ### Good Daily Habits
 
