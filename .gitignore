@@ -10,7 +10,8 @@
 .obsidian/workspace
 !.obsidian/workspace.json
 
-*.md~
 *.log
+*.md~
+*.md -text
 
 node_modules/
