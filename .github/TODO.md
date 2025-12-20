@@ -11,11 +11,27 @@ obsidian-workflow TODO
     - Color from system theme or vault theme.
   - [ ] Increase sizes
 
+- [ ] Structured Notes
+  - [ ] Combine PARA and Zettelkasten?
+  - PARA
+    - action driven
+  -  Zettelkasten
+    - [ ] research Zettelkasten
+    - atomic notes
+    - thought driven
+
 - [ ] Fix the following plugins:
   - [x] advanced tables
   - [x] omnisearch
   - [x] git
   - any other offending plugins.
+
+- [ ] Periodic Notes
+  - [ ] Daily
+  - [ ] Weekly
+  - [ ] Monthly
+  - [ ] Quarterly
+  - [ ] Yearly 
 
 - [ ] Static Ribbon placement.
 - [ ] Update directories.
@@ -29,6 +45,35 @@ obsidian-workflow TODO
 	- https://github.com/r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets/blob/Collection/Snippets/Kanban%20styling%20-%20background%20customized.md
 	- https://github.com/r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets
 	- https://github.com/zremboldt/obsidian-media-grid
+
+## Unsorted
+
+- [ ] checkout earlier commits:
+  - [ ] verify how scripts work.
+  - [ ] test periodic notes.
+- [x] setup themes
+  - find theme with good visibility.
+- [ ] Kanban board use cases
+  - [ ] Periodic Notes (00 - Kanban)
+  - [ ] PARA Kanban (the project/area files themselves)
+- [ ] simplified english everywhere.
+- [ ] finish Daily template
+- [ ] make a generic copy of Daily template?
+  - instead of Interests, make it a Kanban?
+- [ ] add directories where necessary
+  - [ ] "99 - Templates"
+- [ ] Habits
+  - checked out last commit by original dev (v1.0.7)
+  - "Yearly Focus 🔥 & Goals 🎯", has a heading in template.
+  - "Quarterly Focus 🔥 & Goals 🎯", has a heading in template.
+  - "Monthly Focus 🔥 & Goals 🎯", has a heading in template.
+  - "Weekly Focus 🔥 & Goals 🎯", has a heading in template.
+  - "Daily Focus 🔥 & Goals 🎯", has a heading in template.
+  
+- [ ] updated banner image showing latest changes
+- [ ] test all plugins
+- [ ] disable paid plugins, and note these
+- [ ] fix left pane icons, need color and/or text.
 
 # Change log
 
@@ -51,7 +96,6 @@ obsidian-workflow TODO
 	- `40` for various community plugin output.
 	- `50` for various core plugin and template output.
 	- `9x` for unsorted media and templates.
-
 
 - Plugins
   - Updated configurations of various plugins. #FIXME
@@ -98,41 +142,6 @@ My Github: https://github.com/TheKoTech
 }
 
 ```
-	
-  
-- [ ] checkout earlier commits:
-  - [ ] verify how scripts work.
-  - [ ] test periodic notes.
-- [x] setup themes
-  - find theme with good visibility.
-
-
-- [ ] transfer license from MIT to GPLv3
-- [ ] Kanban board use cases
-  - [ ] Periodic Notes (00 - Kanban)
-  - [ ] PARA Kanban (the project/area files themselves)
-- [ ] simplified english everywhere.
-- [ ] finish Daily template
-- [ ] make a generic copy of Daily template?
-  - instead of Interests, make it a Kanban?
-- [ ] add directories where necessary
-  - [ ] "99 - Templates"
-- [ ] Habits
-  - checked out last commit by original dev (v1.0.7)
-  - "Yearly Focus 🔥 & Goals 🎯", has a heading in template.
-  - "Quarterly Focus 🔥 & Goals 🎯", has a heading in template.
-  - "Monthly Focus 🔥 & Goals 🎯", has a heading in template.
-  - "Weekly Focus 🔥 & Goals 🎯", has a heading in template.
-  - "Daily Focus 🔥 & Goals 🎯", has a heading in template.
-  
-- [ ] updated banner image showing latest changes
-- [ ] test all plugins
-- [ ] disable paid plugins, and note these
-- [ ] fix left pane icons, need color and/or text. Fuck GNOME-dev-like faggots.
-
-positive
-negative
-
 
 Regarding the template, design a new template with the following specifications.
 
