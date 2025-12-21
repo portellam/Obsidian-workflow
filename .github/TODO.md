@@ -103,6 +103,7 @@ obsidian-workflow TODO
 	- `9x` for unsorted media and templates.
 
 - Plugins
+  - Installed more core plugins.
   - Updated configurations of various plugins. #FIXME
 	
 - Ribbons (left pane icons):
@@ -123,6 +124,7 @@ obsidian-workflow TODO
   - Updated paths.
  
 - Snippets:
+  - LCARS (Library Computer Access Retrieval System) from *Star Trek: The Next Generation.* [Link](https://old.reddit.com/r/ObsidianMD/comments/1dafwb7/i_have_a_problem_leave_me_alone_with_a_ui_and/),  [Archive]()
 
 - Workspace
   - Added [Workspaces Plus]() plugin "Manage workspace layouts".
