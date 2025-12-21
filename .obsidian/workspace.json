@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "840f66d6e70e4975",
+    "id": "e49f4cf6cfd75de1",
     "type": "split",
     "children": [
       {
-        "id": "be7357924954c884",
+        "id": "e7d054b9b9ed2faa",
         "type": "tabs",
         "children": [
           {
-            "id": "2d873a2c4293c0f3",
+            "id": "0306955624da4453",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -23,15 +23,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f6ef253f976cc4c2",
+    "id": "b62318fc440adb1d",
     "type": "split",
     "children": [
       {
-        "id": "4168243fd6841978",
+        "id": "bfd8b2756f1e74f6",
         "type": "tabs",
         "children": [
           {
-            "id": "6db78111ac3306e7",
+            "id": "42861f72d0ce5628",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -44,7 +44,7 @@
             }
           },
           {
-            "id": "aad4ba647c85ba93",
+            "id": "8af0cfbfb299a31a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +61,7 @@
             }
           },
           {
-            "id": "57adf357db426c75",
+            "id": "89e7eb7382a303ab",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -77,15 +77,15 @@
     "width": 300
   },
   "right": {
-    "id": "8926c8e4c02a8183",
+    "id": "226a6ea7d99904bf",
     "type": "split",
     "children": [
       {
-        "id": "2bc24c9c17b30e71",
+        "id": "ecf0414395eeaeb8",
         "type": "tabs",
         "children": [
           {
-            "id": "4c72827987c497ce",
+            "id": "15ab0edc5434196b",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -103,7 +103,20 @@
             }
           },
           {
-            "id": "28b2760436dacd8c",
+            "id": "a65e0a65f14d6005",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "86798168ee073752",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -118,7 +131,7 @@
             }
           },
           {
-            "id": "aabefdcf3cf3b153",
+            "id": "283c3366546bbcf9",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -132,22 +145,21 @@
             }
           },
           {
-            "id": "199d8a6a1884421d",
+            "id": "30347bdab22e9021",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "11 - Daily/2025-12-19 Fri.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2025-12-19 Fri"
+              "title": "Outline"
             }
           },
           {
-            "id": "da04332b4cd4523f",
+            "id": "da8caf2da97d9a10",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -156,45 +168,46 @@
               "title": "Calendar"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "periodic-notes:Open today": false,
-      "daily-notes:Open today's daily note": true,
-      "zk-prefixer:Create new unique note": false,
+      "daily-notes:Open today's daily note": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "audio-recorder:Start/stop recording": false,
-      "ribbon-divider:ribbon-divider-682904f9-fdff-4b0b-8aaa-93664a9125f5": false,
-      "switcher:Open quick switcher": false,
-      "command-palette:Open command palette": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "graph:Open graph view": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "workspaces-plus:Manage workspaces": false,
-      "workspaces:Manage workspace layouts": false,
       "ribbon-divider:ribbon-divider-8c89ece2-8c62-4fa3-a715-b43be31a08d5": false,
+      "command-palette:Open command palette": false,
+      "graph:Open graph view": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "switcher:Open quick switcher": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "ribbon-divider:ribbon-divider-0922a96a-f8fd-4934-9aac-2665e72ed62f": false,
       "bases:Create new base": false,
       "obsidian-kanban:Create new board": false,
       "canvas:Create new canvas": false,
+      "zk-prefixer:Create new unique note": false,
       "cmdr:Create Something": false,
-      "ribbon-divider:ribbon-divider-0922a96a-f8fd-4934-9aac-2665e72ed62f": false,
+      "templater-obsidian:Templater": true,
+      "ribbon-divider:ribbon-divider-02867fbc-f155-4f2b-9912-dcfc2b3c19a2": false,
+      "cmdr:Import from Todoist": false,
       "callout-manager:Insert Callout": false,
       "templates:Insert template": false,
-      "ribbon-divider:ribbon-divider-02867fbc-f155-4f2b-9912-dcfc2b3c19a2": false,
+      "ribbon-divider:ribbon-divider-682904f9-fdff-4b0b-8aaa-93664a9125f5": false,
       "markdown-importer:Open format converter": false,
       "obsidian-importer:Open Importer": false,
       "iconic:Open rulebook": false,
-      "cmdr:Import from Todoist": true,
-      "templater-obsidian:Templater": true,
-      "publish:Publish changes...": false
+      "publish:Publish changes...": false,
+      "ribbon-divider:ribbon-divider-ba8eca37-8e94-433d-81b5-24ecc8aa7cc3": false,
+      "workspaces-plus:Manage workspaces": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "2d873a2c4293c0f3",
+  "active": "42861f72d0ce5628",
   "lastOpenFiles": []
 }
