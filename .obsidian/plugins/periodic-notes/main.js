@@ -5464,6 +5464,8 @@ class PeriodicNotesPlugin extends obsidian.Plugin {
         this.ribbonEl = null;
         this.updateSettings = this.updateSettings.bind(this);
         await this.loadSettings();
+        this.configureRibbonIcons();
+        this.configureCommands();
         this.addSettingTab(new PeriodicNotesSettingsTab(this.app, this));
         this.app.workspace.onLayoutReady(this.onLayoutReady.bind(this));
         obsidian.addIcon("calendar-day", calendarDayIcon);
@@ -5479,8 +5481,6 @@ class PeriodicNotesPlugin extends obsidian.Plugin {
             this.migrateWeeklySettings();
             this.settings.weekly.enabled = true;
         }
-        this.configureRibbonIcons();
-        this.configureCommands();
     }
     migrateWeeklySettings() {
         const calendarSettings = getLegacyWeeklyNoteSettings();
