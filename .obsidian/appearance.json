@@ -1,11 +1,10 @@
 {
   "accentColor": "",
-  "theme": "obsidian",
-  "cssTheme": "AnuPpuccin",
+  "theme": "system",
+  "cssTheme": "",
   "baseFontSize": 16,
   "enabledCssSnippets": [
     "custom-ribbon",
-    "LCARS",
     "larger-ribbon",
     "kanban-search",
     "amoled-theme-code-snippet-fix",
