@@ -7,6 +7,9 @@ obsidian-workflow TODO
 
 # Backlog
 
+- [ ] How to/Usage
+  - Zettelkasten
+  - Atomic Notes
 - [x] Add CONTRIBUTORS files.
 - [x] Add GPLv3 `LICENSE.md` to project
 - [ ] Add snippets?
@@ -38,7 +41,8 @@ obsidian-workflow TODO
   - [ ] Quarterly
   - [ ] Yearly 
 
-- [ ] Static Ribbon placement.
+- [x] Static Ribbon placement.
+  - Related: https://github.com/liamcain/obsidian-periodic-notes/issues/200
 - [ ] Update directories.
 - [ ] Update QuickAdd
 
