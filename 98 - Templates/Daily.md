@@ -65,32 +65,35 @@ ___
 
 
 
-## Kanban Board
+## Kanban Boards
 ___
 > [!RED] To Do
 > ```tasks
 > not done
 > is not recurring
 > heading includes TO DO
+> group by filename
 > ```
 
 > [!ORANGE] Doing
 > ```tasks
 > is not recurring
 > heading includes DOING
+> group by filename
 > ```
 
 > [!YELLOW] Waiting
 > ```tasks
 > is not recurring
 > heading includes WAITING
+> group by filename
 > ```
 
 > [!GREEN] Done
 > ```tasks
 > is not recurring
 > heading includes DONE
-> group by heading
+> group by filename
 > ```
 ## Tasks
 ___
