@@ -1,6 +1,5 @@
 [
   "remember-cursor-position",
-  "obsidian-style-settings",
   "periodic-notes",
   "obsidian-kanban",
   "calendar",
@@ -31,17 +30,19 @@
   "obsidian-linter",
   "note-refactor-obsidian",
   "obsidian-paste-image-rename",
-  "cm-show-whitespace-obsidian",
-  "symbols-prettifier",
-  "tag-wrangler",
   "obsidian-tasks-plugin",
-  "ribbon-divider",
-  "iconic",
   "obsidian-minimal-settings",
   "workspaces-plus",
   "obsidian-importer",
   "obsidian-excalidraw-plugin",
   "obsidian-annotator",
   "obsidian-dictionary-plugin",
-  "quickadd"
+  "quickadd",
+  "iconic",
+  "tag-wrangler",
+  "symbols-prettifier",
+  "obsidian-style-settings",
+  "cm-show-whitespace-obsidian",
+  "ribbon-divider",
+  "darlal-switcher-plus"
 ]
