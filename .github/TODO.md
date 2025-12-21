@@ -1,11 +1,46 @@
 obsidian-workflow TODO
 
+# Goals
+- Make it easy to journal.
+  - Provide templates, with instructions, to enable a user to get to work.
+
+- Make it easy to be organized.
+  - Have the app organize notes for the user.
+  - Given metadata, sort files into folders automatically.
+
+- Disable the paid/registered features of original repository.
+  - Show how to enable these features.
+  - Todoist
+  - Sync
+
+- Be stable.
+
+- Be presentable.
+  - Easy to see buttons.
+  - Organized layout of buttons.
+
+# Notes
+- The daily note template has been changed.
+- Q: Should a hot key or auto fill be defined for making a habit (habitual task)?
+- Q: Regarding the "Habits" section, should the template...
+  - Q: parse only template generated files for "Habits"?
+  - Q: parse all files for "Habits"?
+- Q: Given the periodic note templates' layouts (Habits, Kanban Boards, Tasks, Projects), how may we best implement Zettelkasten?
+- Q: Should we expect the user to use "Periodic Notes," or use an untitled note for journaling?
+  - [ ] demonstrate how to use Periodic Notes
+  - [ ] explain the pros/cons of Periodic Notes, how it 
+
 # Known Issues
 
 - Ribbon layout will reset after program exit.
   - Related: https://github.com/phibr0/obsidian-commander/issues/81
 
 # Backlog
+
+- [ ] Screenshots
+  - [ ] Periodic Notes example
+  - [ ] Kanban example
+  - [ ] Zettelkasten example
 
 - [ ] How to/Usage
   - Zettelkasten
