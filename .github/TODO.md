@@ -10,14 +10,34 @@ obsidian-workflow TODO
 - [ ] How to/Usage
   - Zettelkasten
   - Atomic Notes
+  
 - [x] Add CONTRIBUTORS files.
 - [x] Add GPLv3 `LICENSE.md` to project
 - [ ] Add snippets?
+
+- [ ] Add directories where necessary
+  - [ ] "99 - Templates"
+
+- [ ] Checkout earlier commits:
+  - [ ] Test periodic notes.
+  - [ ] Verify how scripts work.
+
 - [x] Copy existing `LICENSE.md` (MIT) to scripts files.
+
+- [ ] Disable paid plugins, and note these
+
 - [ ] Fix ribbon and various icons
   - [ ] Add color
     - Color from system theme or vault theme.
-  - [ ] Increase sizes
+  - [x] Increase sizes
+
+- [ ] Habits
+  - checked out last commit by original dev (v1.0.7)
+  - "Yearly Focus 🔥 & Goals 🎯", has a heading in template.
+  - "Quarterly Focus 🔥 & Goals 🎯", has a heading in template.
+  - "Monthly Focus 🔥 & Goals 🎯", has a heading in template.
+  - "Weekly Focus 🔥 & Goals 🎯", has a heading in template.
+  - "Daily Focus 🔥 & Goals 🎯", has a heading in template.
 
 - [ ] Structured Notes
   - [ ] Combine PARA and Zettelkasten?
@@ -34,6 +54,59 @@ obsidian-workflow TODO
   - [x] git
   - any other offending plugins.
 
+- [ ] Kanban board use cases
+  - [ ] Periodic Notes (00 - Kanban)
+  - [ ] PARA Kanban (the project/area files themselves)
+
+- [ ] Metadata:
+  - [ ] PARA method ("project", "area", "resource", and "archive")
+  - [ ] unsorted or Inbox notes ("inbox")
+  - [ ] daily notes ("daily")
+  - [ ] weekly notes ("weekly")
+  - [ ] monthly notes ("monthly")
+  - [ ] quarterly notes ("quarterly")
+  - [ ] yearly notes ("yearly")
+  - [ ] Categories (not tags) for the following:
+    - [ ] Given the categories, output or move note(s) to directories:
+	- [ ] "inbox" to "00 - Inbox"
+	- [ ] "project" to "01 - Projects"
+	- [ ] "area" to "02 - Areas"
+	- [ ] "resource" to "03 - Resources"
+	- [ ] "archives" to "04 - Archives"
+	- [ ] "daily" to "11 - Daily"
+	- [ ] "weekly" to "12 - Weekly"
+	- [ ] "monthly" to "13 - Monthly"
+	- [ ] "quarterly" to "14 - Quarterly"
+	- [ ] "yearly" to "15 - Yearly"
+  - [ ] Prioritize the following categories:
+    - "archive" > "resource" > "area" > "project"
+  - [ ] If a project is finished or stopped indefinitely, append the category "archive".
+
+- [ ] Daily (Periodic Note):
+  - [x] Create logic for "Inbox": list files in "00 - Inbox", sorted by reverse chronological order, range from today to past 30 days. 
+  - [ ] Regarding the template, design a new template with the following specifications:
+	- [ ] Organize by the following headers. If any headers are redundant, consolidate:
+```
+## Notes
+## Inbox
+## Habits
+### Retrospective
+### To Make
+### To Break
+## Interests
+### Retrospective
+### To Do
+## Tasks
+### Due Yesterday
+### Do Today
+### Do Tomorrow
+### Recurring
+## Projects
+### Future
+### Waiting
+### Delegated
+```
+
 - [ ] Periodic Notes
   - [ ] Daily
   - [ ] Weekly
@@ -41,8 +114,13 @@ obsidian-workflow TODO
   - [ ] Quarterly
   - [ ] Yearly 
 
+- [x] Setup themes.
+  - Find theme with good visibility.
+
+- [ ] Simplified english everywhere.
 - [x] Static Ribbon placement.
-  - Related: https://github.com/liamcain/obsidian-periodic-notes/issues/200
+- [ ] Test all plugins.
+- [ ] Updated banner image showing latest changes
 - [ ] Update directories.
 - [ ] Update QuickAdd
 
@@ -54,35 +132,6 @@ obsidian-workflow TODO
 	- https://github.com/r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets/blob/Collection/Snippets/Kanban%20styling%20-%20background%20customized.md
 	- https://github.com/r-u-s-h-i-k-e-s-h/Obsidian-CSS-Snippets
 	- https://github.com/zremboldt/obsidian-media-grid
-
-## Unsorted
-
-- [ ] checkout earlier commits:
-  - [ ] verify how scripts work.
-  - [ ] test periodic notes.
-- [x] setup themes
-  - find theme with good visibility.
-- [ ] Kanban board use cases
-  - [ ] Periodic Notes (00 - Kanban)
-  - [ ] PARA Kanban (the project/area files themselves)
-- [ ] simplified english everywhere.
-- [ ] finish Daily template
-- [ ] make a generic copy of Daily template?
-  - instead of Interests, make it a Kanban?
-- [ ] add directories where necessary
-  - [ ] "99 - Templates"
-- [ ] Habits
-  - checked out last commit by original dev (v1.0.7)
-  - "Yearly Focus 🔥 & Goals 🎯", has a heading in template.
-  - "Quarterly Focus 🔥 & Goals 🎯", has a heading in template.
-  - "Monthly Focus 🔥 & Goals 🎯", has a heading in template.
-  - "Weekly Focus 🔥 & Goals 🎯", has a heading in template.
-  - "Daily Focus 🔥 & Goals 🎯", has a heading in template.
-  
-- [ ] updated banner image showing latest changes
-- [ ] test all plugins
-- [ ] disable paid plugins, and note these
-- [ ] fix left pane icons, need color and/or text.
 
 # Change log
 
@@ -114,6 +163,8 @@ obsidian-workflow TODO
   - Organized based on (best guess) of frequency of use.
   - Added [Ribbon dividers]()
   - Added `.css` snippet file, assist visibility by increasing ribbon icon sizes.
+  - Fixed issue with periodic-notes, where ribbon location would reset at every start.
+    - [Link](https://github.com/liamcain/obsidian-periodic-notes/issues/200)
 
 - Themes:
   - Provide a selection of themes,
@@ -153,57 +204,3 @@ My Github: https://github.com/TheKoTech
 }
 
 ```
-
-Regarding the template, design a new template with the following specifications.
-
-Organize by the following headers. If any headers are redundant, consolidate.
-
-## Notes
-## Inbox
-## Habits
-### Retrospective
-### To Make
-### To Break
-## Interests
-### Retrospective
-### To Do
-## Tasks
-### Due Yesterday
-### Do Today
-### Do Tomorrow
-### Recurring
-## Projects
-### Future
-### Waiting
-### Delegated
-
-Categories (not tags) for the following:
-
-PARA method ("project", "area", "resource", and "archive")
-unsorted or Inbox notes ("inbox")
-daily notes ("daily")
-weekly notes ("weekly")
-monthly notes ("monthly")
-quarterly notes ("quarterly")
-yearly notes ("yearly")
-
-Given the categories, output or move note(s) to directories:
-
-"inbox" to "00 - Inbox"
-"project" to "01 - Projects"
-"area" to "02 - Areas"
-"resource" to "03 - Resources"
-"archives" to "04 - Archives"
-"daily" to "11 - Daily"
-"weekly" to "12 - Weekly"
-"monthly" to "13 - Monthly"
-"quarterly" to "14 - Quarterly"
-"yearly" to "15 - Yearly"
-
-Prioritize the following categories:
-
-"archive" > "resource" > "area" > "project"
-
-Create logic for "Inbox": list files in "00 - Inbox", sorted by reverse chronological order, range from today to past 30 days. 
-
-If a project is finished or stopped indefinitely, append the category "archive".
