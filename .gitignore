@@ -11,8 +11,7 @@
 !.obsidian/themes
 !.obsidian/workspace.json
 !.obsidian/workspaces.json
-
-!.obsidian/plugins/*/*.7z
+!.obsidian/**/*.7z
 
 .DS_Store
 .trash/
