@@ -42,6 +42,11 @@ ___
 > WHERE file.ctime >= date(<% previousThirtyDays %>)
 > SORT file.ctime DESC
 > ```
+------
+```todoist
+name: Todoist Inbox
+filter: "#Inbox"
+```
 ## Habits
 ___
 > [!GREEN]+ Good Habits
