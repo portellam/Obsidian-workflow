@@ -1,5 +1,10 @@
 obsidian-workflow TODO
 
+# Known Issues
+
+- Ribbon layout will reset after program exit.
+  - Related: https://github.com/phibr0/obsidian-commander/issues/81
+
 # Backlog
 
 - [x] Add CONTRIBUTORS files.
