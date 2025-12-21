@@ -166,14 +166,18 @@
   "left-ribbon": {
     "hiddenItems": {
       "periodic-notes:Open today": false,
+      "daily-notes:Open today's daily note": true,
+      "zk-prefixer:Create new unique note": false,
       "obsidian-excalidraw-plugin:New drawing": false,
       "audio-recorder:Start/stop recording": false,
       "ribbon-divider:ribbon-divider-682904f9-fdff-4b0b-8aaa-93664a9125f5": false,
       "switcher:Open quick switcher": false,
       "command-palette:Open command palette": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
       "graph:Open graph view": false,
-      "workspaces:Manage workspace layouts": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
       "workspaces-plus:Manage workspaces": false,
+      "workspaces:Manage workspace layouts": false,
       "ribbon-divider:ribbon-divider-8c89ece2-8c62-4fa3-a715-b43be31a08d5": false,
       "bases:Create new base": false,
       "obsidian-kanban:Create new board": false,
@@ -187,7 +191,8 @@
       "obsidian-importer:Open Importer": false,
       "iconic:Open rulebook": false,
       "cmdr:Import from Todoist": true,
-      "templater-obsidian:Templater": true
+      "templater-obsidian:Templater": true,
+      "publish:Publish changes...": false
     }
   },
   "active": "2d873a2c4293c0f3",
