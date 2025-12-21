@@ -7,7 +7,6 @@ tags:
 aliases:
 share: false
 ---
-# Daily
 <%*
 const today = tp.file.title;
 const previousDay = moment(today, "YYYY-MM-DD").subtract(1, 'd').format("YYYY-MM-DD");
