@@ -1,16 +1,16 @@
 {
   "accentColor": "",
-  "theme": "system",
-  "cssTheme": "",
+  "theme": "obsidian",
+  "cssTheme": "AnuPpuccin",
   "baseFontSize": 16,
   "enabledCssSnippets": [
-    "extended-colorschemes",
-    "kanban-search",
-    "sync-icon",
-    "amoled-theme-code-snippet-fix",
-    "rainbow-tags",
+    "custom-ribbon",
+    "LCARS",
     "larger-ribbon",
-    "custom-ribbon"
+    "kanban-search",
+    "amoled-theme-code-snippet-fix",
+    "sync-icon",
+    "rainbow-tags"
   ],
   "showRibbon": true,
   "baseFontSizeAction": true,
