@@ -36,6 +36,12 @@ obsidian-workflow TODO
   - Related: https://github.com/phibr0/obsidian-commander/issues/81
 
 # Backlog
+- [ ] apply original license to work that isn't changed:
+  - [ ] scripts
+    - [ ] place within folder.
+- [ ] things to change to apply own license
+  - [ ] content of README
+  - [ ] templates?
 
 - [ ] Screenshots
   - [ ] Periodic Notes example
@@ -45,7 +51,7 @@ obsidian-workflow TODO
 - [ ] How to/Usage
   - Zettelkasten
   - Atomic Notes
-  
+
 - [x] Add CONTRIBUTORS files.
 - [x] Add GPLv3 `LICENSE.md` to project
 - [ ] Add snippets?
