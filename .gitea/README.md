@@ -1,15 +1,3 @@
-<!-- LOGO -->
-<div align="left">
-  <!-- Gitea compatible (uncomment as needed) -->
-  <a href="../../../../releases/latest">
-    <img width="100" height="100" src="./images/logo.svg" alt="Template"/>
-  </a>
-  <!-- GitHub compatible (uncomment as needed) -->
-  <!-- <a href="../../releases/latest">
-    <img width="100" height="100" src="./images/logo.svg" alt="Template"/>
-  </a> -->
-</div>
-
 <!-- HEADER -->
 <h1>Obsidian Workflow</h1><!-- CHANGEME -->
 
@@ -19,10 +7,9 @@
 [![Issues][ISSUES-COUNT-URL]][ISSUES-URL]
 
 <!-- CHANGEME -->
-An <a href="https://obsidian.md/">Obsidian</a> vault template from a Workflow
-with Tasks and Project Management, Journaling, Media Tracking, Offline
-Read-it-later and Bookmark Management, Note-taking and Note-sharing on your own
-website.
+An [Obsidian][OBSIDIAN-URL] vault template from a Workflow with Tasks and
+Project Management, Journaling, Media Tracking, Offline Read-it-later and
+Bookmark Management, Note-taking and Note-sharing on your own website.
 </br>
 </br>
 Download [here.][DOWNLOAD-URL]
