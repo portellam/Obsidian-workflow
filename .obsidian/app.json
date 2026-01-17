@@ -1,7 +1,7 @@
 {
   "newFileLocation": "folder",
   "newFileFolderPath": "00 - Inbox",
-  "attachmentFolderPath": "90 - Media",
+  "attachmentFolderPath": "80 - Media",
   "promptDelete": true,
   "alwaysUpdateLinks": true,
   "mobilePullAction": "switcher:open",
