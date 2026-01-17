@@ -7,7 +7,7 @@ following:
 If you wish to *support* the development of the repo:
 
 <!-- SHIELDS -->
-[![ko-fi][SUPPORT-KO-FI-LOGO-URL]][SUPPORT-KO-FI-URL01]
+[![ko-fi][SUPPORT-KO-FI-LOGO-URL]][SUPPORT-KO-FI-URL]
 
 ---
 
