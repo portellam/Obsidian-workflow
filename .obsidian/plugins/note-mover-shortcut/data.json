@@ -1,0 +1,343 @@
+{
+  "settings": {
+    "triggers": {
+      "enablePeriodicMovement": true,
+      "periodicMovementInterval": 5,
+      "enableOnEditTrigger": true
+    },
+    "filters": {
+      "filter": []
+    },
+    "rules": [],
+    "retentionPolicy": {
+      "value": 30,
+      "unit": "days"
+    },
+    "enableRuleV2": true,
+    "rulesV2": [
+      {
+        "name": "01 - Projects",
+        "destination": "01 - Projects",
+        "aggregation": "all",
+        "triggers": [
+          {
+            "criteriaType": "properties",
+            "operator": "any contain",
+            "value": "project",
+            "propertyName": "categories",
+            "propertyType": "list"
+          },
+          {
+            "criteriaType": "folder",
+            "operator": "does not contain",
+            "value": "01 - Projects"
+          }
+        ],
+        "active": true
+      },
+      {
+        "name": "02 - Areas",
+        "destination": "02 - Areas",
+        "aggregation": "all",
+        "triggers": [
+          {
+            "criteriaType": "properties",
+            "operator": "any contain",
+            "value": "area",
+            "propertyName": "categories",
+            "propertyType": "list"
+          },
+          {
+            "criteriaType": "folder",
+            "operator": "does not contain",
+            "value": "02 - Areas"
+          }
+        ],
+        "active": true
+      },
+      {
+        "name": "03 - Resources",
+        "destination": "03 - Resources",
+        "aggregation": "all",
+        "triggers": [
+          {
+            "criteriaType": "properties",
+            "operator": "any contain",
+            "value": "resource",
+            "propertyName": "categories",
+            "propertyType": "list"
+          },
+          {
+            "criteriaType": "folder",
+            "operator": "does not contain",
+            "value": "03 - Resources"
+          }
+        ],
+        "active": true
+      },
+      {
+        "name": "04 - Archives",
+        "destination": "04 - Archives",
+        "aggregation": "all",
+        "triggers": [
+          {
+            "criteriaType": "properties",
+            "operator": "any contain",
+            "value": "archive",
+            "propertyName": "categories",
+            "propertyType": "list"
+          },
+          {
+            "criteriaType": "folder",
+            "operator": "does not contain",
+            "value": "04 - Archives"
+          }
+        ],
+        "active": true
+      },
+      {
+        "name": "10 - Daily",
+        "destination": "10 - Daily",
+        "aggregation": "all",
+        "triggers": [
+          {
+            "criteriaType": "properties",
+            "operator": "any contain",
+            "value": "daily",
+            "propertyName": "categories",
+            "propertyType": "list"
+          },
+          {
+            "criteriaType": "folder",
+            "operator": "does not contain",
+            "value": "10 - Daily"
+          }
+        ],
+        "active": true
+      },
+      {
+        "name": "11 - Weekly",
+        "destination": "11 - Weekly",
+        "aggregation": "all",
+        "triggers": [
+          {
+            "criteriaType": "properties",
+            "operator": "any contain",
+            "value": "weekly",
+            "propertyName": "categories",
+            "propertyType": "list"
+          },
+          {
+            "criteriaType": "folder",
+            "operator": "does not contain",
+            "value": "11 - Weekly"
+          }
+        ],
+        "active": true
+      },
+            {
+        "name": "12 - Quarterly",
+        "destination": "12 - Quarterly",
+        "aggregation": "all",
+        "triggers": [
+          {
+            "criteriaType": "properties",
+            "operator": "any contain",
+            "value": "quarterly",
+            "propertyName": "categories",
+            "propertyType": "list"
+          },
+          {
+            "criteriaType": "folder",
+            "operator": "does not contain",
+            "value": "12 - Quarterly"
+          }
+        ],
+        "active": true
+      },
+            {
+        "name": "13 - Monthly",
+        "destination": "13 - Monthly",
+        "aggregation": "all",
+        "triggers": [
+          {
+            "criteriaType": "properties",
+            "operator": "any contain",
+            "value": "monthly",
+            "propertyName": "categories",
+            "propertyType": "list"
+          },
+          {
+            "criteriaType": "folder",
+            "operator": "does not contain",
+            "value": "13 - Monthly"
+          }
+        ],
+        "active": true
+      },
+      {
+        "name": "14 - Yearly",
+        "destination": "14 - Yearly",
+        "aggregation": "all",
+        "triggers": [
+          {
+            "criteriaType": "properties",
+            "operator": "any contain",
+            "value": "yearly",
+            "propertyName": "categories",
+            "propertyType": "list"
+          },
+          {
+            "criteriaType": "folder",
+            "operator": "does not contain",
+            "value": "14 - Yearly"
+          }
+        ],
+        "active": true
+      },
+      {
+        "name": "50 - Archives",
+        "destination": "50 - Archives",
+        "aggregation": "all",
+        "triggers": [
+          {
+            "criteriaType": "extension",
+            "operator": "match regex",
+            "value": "zip|rar|7z|tar|gz|bz2|xz|zst|lzma|iso"
+          }
+        ],
+        "active": false
+      },
+      {
+        "name": "50 - Audio",
+        "destination": "50 - Audio",
+        "aggregation": "all",
+        "triggers": [
+          {
+            "criteriaType": "extension",
+            "operator": "match regex",
+            "value": "mp3|wav|wma|ogg|m4a|flac|aac|aif|mid|midi"
+          }
+        ],
+        "active": false
+      },
+      {
+        "name": "50 - Documents",
+        "destination": "50 - Documents",
+        "aggregation": "all",
+        "triggers": [
+          {
+            "criteriaType": "extension",
+            "operator": "match regex",
+            "value": "docx?|pdf|odt|rtf|tex|txt|wpd|xlsx?|ods|xlsm|pptx?|pps|odp"
+          }
+        ],
+        "active": false
+      },
+      {
+        "name": "50 - Images",
+        "destination": "50 - Images",
+        "aggregation": "all",
+        "triggers": [
+          {
+            "criteriaType": "extension",
+            "operator": "match regex",
+            "value": "jpe?g|png|gif|bmp|svg|tiff?|webp|heic|psd|ai|eps|raw"
+          }
+        ],
+        "active": false
+      },
+      {
+        "name": "50 - Software",
+        "destination": "50 - Software",
+        "aggregation": "all",
+        "triggers": [
+          {
+            "criteriaType": "extension",
+            "operator": "match regex",
+            "value": "exe|msi|bin|command|sh|bat|com|jar|app|dmg|iso"
+          }
+        ],
+        "active": false
+      },
+      {
+        "name": "50 - Programming",
+        "destination": "50 - Programming",
+        "aggregation": "all",
+        "triggers": [
+          {
+            "criteriaType": "extension",
+            "operator": "match regex",
+            "value": "html?|css|js|jsx|ts|tsx|php|py|rb|java|c|cpp|cs|go|sql|json|xml|yaml|yml"
+          },
+          {
+            "criteriaType": "folder",
+            "operator": "does not contain",
+            "value": "scripts"
+          }
+        ],
+        "active": false
+      },
+      {
+        "name": "50 - Video",
+        "destination": "50 - Video",
+        "aggregation": "all",
+        "triggers": [
+          {
+            "criteriaType": "extension",
+            "operator": "match regex",
+            "value": "mp4|mov|avi|wmv|flv|mkv|webm|m4v|mpg|mpeg|3gp"
+          }
+        ],
+        "active": false
+      }
+    ]
+  },
+  "history": {
+    "history": [
+      {
+        "sourcePath": "00 - Inbox/Project Backlog.md",
+        "destinationPath": "01 - Projects/Project Backlog.md",
+        "fileName": "Project Backlog.md",
+        "id": "96fc4931-b959-4050-ba90-f764e1450d52",
+        "timestamp": 1768569680703,
+        "operationType": "single"
+      },
+      {
+        "sourcePath": "00 - Inbox/Git Config Examples.md",
+        "destinationPath": "04 - Archives/Git Config Examples.md",
+        "fileName": "Git Config Examples.md",
+        "id": "25e2a539-876f-4f7d-9ee2-07fd7449122c",
+        "timestamp": 1768568473102,
+        "operationType": "single"
+      },
+      {
+        "sourcePath": "00 - Inbox/Palantir.md",
+        "destinationPath": "03 - Resources/Palantir.md",
+        "fileName": "Palantir.md",
+        "id": "0f180586-71a7-4b3d-9d4d-62be4d4ecbe6",
+        "timestamp": 1768489061968,
+        "operationType": "single"
+      },
+      {
+        "sourcePath": "00 - Inbox/Basement Improvements.md",
+        "destinationPath": "02 - Areas/Basement Improvements.md",
+        "fileName": "Basement Improvements.md",
+        "id": "72bb840a-7d7a-4eab-bb55-ae18fc90fc63",
+        "timestamp": 1768481840322,
+        "operationType": "single"
+      },
+      {
+        "sourcePath": "00 - Inbox/Untitled.md",
+        "destinationPath": "03 - Resources/Untitled.md",
+        "fileName": "Untitled.md",
+        "id": "68d43b83-54e1-4c47-bba3-9e148b891899",
+        "timestamp": 1768481484611,
+        "operationType": "single"
+      }
+    ],
+    "bulkOperations": []
+  },
+  "lastSeenVersion": "0.5.7",
+  "schemaVersion": 1
+}
