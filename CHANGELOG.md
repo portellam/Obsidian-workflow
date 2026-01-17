@@ -41,9 +41,6 @@ We follow the [Semantic Versioning 2.0.0](http://semver.org/) format.
   - *Auto Note Mover* (disabled): alternative to *NoteMover shorcut*.
   - *NoteMover shortcut:* sorts files into folders given granular conditions.
 
-- [x] Added folders:
-	- Excald
-
 - [x] Changed folder names with new number prefixes.
   - Grouped by kind.
   - Sorted by most frequent and least frequent user interaction.
@@ -51,9 +48,17 @@ We follow the [Semantic Versioning 2.0.0](http://semver.org/) format.
     - `0x` == Inbox and *PARA.*
     - `1x` == periodic notes
     - `2x` == Core and community plugin folders.
+      - Nested folders for organization given per-plugin requirements (see `20 - Excalidraw`).
     - `3x` == Community plugin folders only.
     - between `3x` and `8x` == reserved for future use or by end user.
     - `8x` == non-note files, grouped by kind. Reserved for potential implementation of *Git LFS.*
+      - Archives: compressed archive files.
+      - Audio
+      - Documents: Microsoft Word, PDFs, text files, etc.
+      - Images
+      - Software Apps: applications and executables (example: `.exe`).
+      - Software Code: text files and source files (example: `.js`).
+      - Video
     - `98` == template notes.
     - `99` == program language script files (typically *JavaScript*).
 
@@ -63,10 +68,43 @@ We follow the [Semantic Versioning 2.0.0](http://semver.org/) format.
   - Enables any plugin which sorts files to more accurately triage and organize said files.
   - Notes can be categorized, but have empty tags.
 
-- [x] Periodic notes:
+- [x] Periodic note folders:
   - Atomized folders given type.
 
+- [ ] Default files?
+  - [ ] Kanban board?
+    - The original repo had Passions Backlog.
+    - Kanban for Habits? Is this logical?
+    - Kanban for all notes of a given type (Projects)?
+    - Contextual Kanbans (given parameters)
+      - Task status updated in Kanban, but set in referenced note file.
 
+- [ ] review TODO.
+
+- [ ] Instructions or FAQ
+  - [ ] how to use (big picture).
+  - [ ] how to make a periodic note.
+  - [ ] how to use PARA notes.
+    - [ ] Resources: Zettlekasten
+  - [ ] how do my notes track what I do, and what I should track?
+  - [ ] think of more to explain.
+
+- [ ] Track tasks
+  - [ ] Habits Tracker
+  - [ ] Kanban boards
+  - [ ] Periodic Notes
+
+- [ ] New templates:
+  - [ ] "Base"
+    - A Base view within a note file.
+    - To be used within a category and/or root folder.
+  - [ ] Habits Tracker
+  - [ ] Periodic Notes
+    - [ ] Daily
+    - [ ] Weekly
+    - [ ] Monthly
+    - [ ] Quarterly
+    - [ ] Yearly
 
 ### Deprecated
 - Nothing.
