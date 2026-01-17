@@ -17,4 +17,4 @@
 [CONTRIBUTORS-URL]: ./
 
   <!-- GitHub compatible (uncomment as needed) -->
-  [CONTRIBUTORS-COUNT-URL]: https://img.shields.io/github/contributors/portellam/template.svg?style=for-the-badge
+  [CONTRIBUTORS-COUNT-URL]: https://img.shields.io/github/contributors/portellam/obsidian-workflow.svg?style=for-the-badge
