@@ -143,7 +143,11 @@ starting-point.
 See [CHANGELOG.md][CHANGELOG-URL] for more details.
 
 ## Why
-[[../.images/example.png]]
+<!-- Gitea version -->
+<!-- [[../.images/example.png]] -->
+
+<!-- GitHub version -->
+![[../.images/example.png]]
 
 - 🎨 Beautiful design using
 [AnuPpuccin: Personal theme for Obsidian][WHY-URL01].
