@@ -240,14 +240,14 @@ See [CONTRIBUTORS.md][CONTRIBUTORS-URL] for more information.
 See [SUPPORT.md][SUPPORT-URL] for more information.
 
 ## License
-Distributed under the Unlicense.  <!-- CHANGEME -->
+Distributed under the MIT license.  <!-- CHANGEME -->
 See [LICENSE][LICENSE-URL] for more information.
 
 ## Acknowledgements
 > [!NOTE]
 > Given this Obsidian vault template ("This Work") did not start as original
-> work, the amount of transformative and new changes herein objectively makes
-> This Work transformative.
+> work, the amount new and unique changes herein objectively makes This Work
+> transformative.
 >
 > Please see below for a link to the original author:
 > - [Mathis Gauthey][ORIGINAL-AUTHOR-URL]
