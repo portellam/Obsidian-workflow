@@ -244,16 +244,23 @@ Distributed under the MIT license.  <!-- CHANGEME -->
 See [LICENSE][LICENSE-URL] for more information.
 
 ## Acknowledgements
-> [!NOTE]
-> Given this Obsidian vault template ("This Work") did not start as original
-> work, the amount new and unique changes herein objectively makes This Work
-> transformative.
->
-> Please see below for a link to the original author:
-> - [Mathis Gauthey][ORIGINAL-AUTHOR-URL]
+> [!NOTE] Notice
+> While this repository did not start as an original work, given the amount new
+> and unique changes herein objectively makes this repository transformative.
+> This statement does NOT (currently) apply to any other repositories
+> referenced herein, including the
+> [documentation repository.][ORIGINAL-REPO-DOCS-URL]
+
+> [!NOTE] Original Repository Notice
+> - The original repository:
 > - [Obsidian Workflow Template][ORIGINAL-REPO-URL]
 > - [Obsidian Workflow Template Documentation][ORIGINAL-REPO-DOCS-URL]
-
+>
+> The original author:
+> - [Mathis Gauthey][ORIGINAL-AUTHOR-URL]
+>
+> Included Licensed works (including but not limited to):
+> - [Scripts][SCRIPTS-URL]
 ---
 
 <!-- BACKLINKS -->
@@ -273,6 +280,7 @@ See [LICENSE][LICENSE-URL] for more information.
 [ORIGINAL-AUTHOR-URL]: https://github.com/mathisgauthey
 [ORIGINAL-REPO-URL]: https://github.com/mathisgauthey/obsidian-workflow-template
 [ORIGINAL-REPO-DOCS-URL]: https://mathisgauthey.github.io/obsidian-workflow-template-docs/
+[SCRIPTS-URL]: ../99%20-%20Scripts
 [SUPPORT-URL]: ./SUPPORT.md
 [SUPPORT-KO-FI-LOGO-URL]: ../.images/support_ko-fi.svg
 [USAGE-URL]: https://github.com/portellam/Obsidian-workflow-docs/tree/master/docs/usage
