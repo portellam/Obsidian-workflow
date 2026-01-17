@@ -24,10 +24,10 @@ To contribute, you may do any of the following:
 
 <!-- LINKS -->
 [ALEX-PORTELL-URL01]: https://github.com/portellam
-[DISCUSSIONS-URL]: https://github.com/portellam/template/discussions
+[DISCUSSIONS-URL]: https://github.com/portellam/obsidian-workflow/discussions
 
   <!-- Gitea compatible (uncomment as needed) -->
-  <!-- [ISSUES-URL]: ../../../../issues -->
+  [ISSUES-URL]: ../../../../issues
 
   <!-- GitHub compatible (uncomment as needed) -->
-  [ISSUES-URL]: ../../issues
+  <!-- [ISSUES-URL]: ../../issues -->
