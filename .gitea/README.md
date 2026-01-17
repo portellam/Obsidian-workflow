@@ -244,15 +244,14 @@ Distributed under the MIT license.  <!-- CHANGEME -->
 See [LICENSE][LICENSE-URL] for more information.
 
 ## Acknowledgements
-> [!WARNING] Notice
+> [!INFO]
 > While this repository did not start as an original work, given the amount new
 > and unique changes herein objectively makes this repository transformative.
 > This statement does NOT (currently) apply to any other repositories
 > referenced herein, including the
 > [documentation repository.][ORIGINAL-REPO-DOCS-URL]
-
-> [!WARNING] Original Repository Notice
-> - The original repository:
+>
+> The original repository:
 > - [Obsidian Workflow Template][ORIGINAL-REPO-URL]
 > - [Obsidian Workflow Template Documentation][ORIGINAL-REPO-DOCS-URL]
 >
@@ -261,6 +260,7 @@ See [LICENSE][LICENSE-URL] for more information.
 >
 > Included Licensed works (including but not limited to):
 > - [Scripts][SCRIPTS-URL]
+
 ---
 
 <!-- BACKLINKS -->
