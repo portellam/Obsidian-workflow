@@ -96,9 +96,6 @@ Available on...
     <li>
       <a href="#acknowledgements">Acknowledgements</a>
     </li>
-    <li>
-      <a href="#references">References</a>
-    </li>
   </ol>
 </div>
 
@@ -145,10 +142,9 @@ starting-point.
 
 See [CHANGELOG.md][CHANGELOG-URL] for more details.
 
-### Demonstrations
-![[../.images/example.png]]
-
 ## Why
+[[../.images/example.png]]
+
 - 🎨 Beautiful design using
 [AnuPpuccin: Personal theme for Obsidian][WHY-URL01].
 
@@ -248,7 +244,7 @@ Distributed under the Unlicense.  <!-- CHANGEME -->
 See [LICENSE][LICENSE-URL] for more information.
 
 ## Acknowledgements
-> [!FAQ]
+> [!NOTE]
 > Given this Obsidian vault template ("This Work") did not start as original
 > work, the amount of transformative and new changes herein objectively makes
 > This Work transformative.
