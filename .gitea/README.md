@@ -27,7 +27,7 @@ Available on...
 <sup>→</sup>
 &nbsp;
 <a href="https://codeberg.org/portellam/obsidian-workflow">  <!-- CHANGEME -->
-  <img title="Codeberg" height="30" src="./images/codeberg.org.png"/>
+  <img title="Codeberg" height="30" src="../.images/codeberg.org.png"/>
 </a>
 </br>
 </br>
@@ -35,7 +35,7 @@ Available on...
 <sup>→</sup>
 &nbsp;
 <a href="https://gitea.com/portellam/obsidian-workflow">  <!-- CHANGEME -->
-  <img title="Gitea" height="30" src="./images/gitea.com.png"/>
+  <img title="Gitea" height="30" src="../.images/gitea.com.png"/>
 </a>
 </br>
 </br>
@@ -43,7 +43,7 @@ Available on...
 <sup>→</sup>
 &nbsp;
 <a href="https://github.com/portellam/obsidian-workflow">  <!-- CHANGEME -->
-  <img title="GitHub" height="30" src="./images/github.com.png"/>
+  <img title="GitHub" height="30" src="../.images/github.com.png"/>
 </a>
 
 <!-- TABLE OF CONTENTS -->
@@ -146,7 +146,7 @@ starting-point.
 See [CHANGELOG.md][CHANGELOG-URL] for more details.
 
 ### Demonstrations
-Insert screenshots or videos here.
+![[../.images/example.png]]
 
 ## Why
 - 🎨 Beautiful design using
@@ -196,7 +196,7 @@ hosted on [Github Pages][WHY-URL10] thanks to
 ## How
 
 ### Requirements
-- [Obsidian][OBSIDIAN_URL]
+- [Obsidian][OBSIDIAN-URL]
 
 ### Download
 - Download the latest release [here.][DOWNLOAD-URL]
@@ -248,8 +248,7 @@ Distributed under the Unlicense.  <!-- CHANGEME -->
 See [LICENSE][LICENSE-URL] for more information.
 
 ## Acknowledgements
-
-> [!INFO]
+> [!FAQ]
 > Given this Obsidian vault template ("This Work") did not start as original
 > work, the amount of transformative and new changes herein objectively makes
 > This Work transformative.
@@ -274,12 +273,12 @@ See [LICENSE][LICENSE-URL] for more information.
 [CONTRIBUTORS-URL]: ./CONTRIBUTORS.md
 [INSTALL-URL]: https://github.com/portellam/Obsidian-workflow-docs/blob/master/docs/getting-started/installation.md
 [LICENSE-URL]: ../LICENSE
-[OBSIDIAN_URL]: https://obsidian.md/
+[OBSIDIAN-URL]: https://obsidian.md/
 [ORIGINAL-AUTHOR-URL]: https://github.com/mathisgauthey
 [ORIGINAL-REPO-URL]: https://github.com/mathisgauthey/obsidian-workflow-template
 [ORIGINAL-REPO-DOCS-URL]: https://mathisgauthey.github.io/obsidian-workflow-template-docs/
 [SUPPORT-URL]: ./SUPPORT.md
-[SUPPORT-KO-FI-LOGO-URL]: ./images/support_ko-fi.svg
+[SUPPORT-KO-FI-LOGO-URL]: ../.images/support_ko-fi.svg
 [USAGE-URL]: https://github.com/portellam/Obsidian-workflow-docs/tree/master/docs/usage
 [WHY-URL01]: https://github.com/AnubisNekhet/anuppuccin
 [WHY-URL02]: https://fortelabs.com/blog/para/

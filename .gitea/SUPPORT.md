@@ -18,7 +18,7 @@ If you wish to *support* the development of the repo:
 
 <!-- LINKS -->
 [DISCUSSIONS-URL]: https://github.com/portellam/obsidian-workflow/discussions
-[SUPPORT-KO-FI-LOGO-URL]: ./images/support_ko-fi.svg
+[SUPPORT-KO-FI-LOGO-URL]: ../.images/support_ko-fi.svg
 
   <!-- CHANGEME -->
   [SUPPORT-KO-FI-URL]: https://ko-fi.com/portellam
