@@ -17,12 +17,11 @@ If you wish to *support* the development of the repo:
 </p>
 
 <!-- LINKS -->
-[DISCUSSIONS-URL]: https://github.com/portellam/template/discussions
-[SUPPORT-KO-FI-LOGO-URL]: ../images/support_ko-fi.svg
+[DISCUSSIONS-URL]: https://github.com/portellam/obsidian-workflow/discussions
+[SUPPORT-KO-FI-LOGO-URL]: ./images/support_ko-fi.svg
 
   <!-- CHANGEME -->
   [SUPPORT-KO-FI-URL]: https://ko-fi.com/portellam
-
 
   <!-- Gitea compatible (uncomment as needed) -->
   <!-- [ISSUES-URL]: ../../../../issues -->
