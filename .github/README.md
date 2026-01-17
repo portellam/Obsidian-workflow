@@ -244,7 +244,7 @@ Distributed under the MIT license.  <!-- CHANGEME -->
 See [LICENSE][LICENSE-URL] for more information.
 
 ## Acknowledgements
-> [!INFO]
+> [!NOTE]
 > While this repository did not start as an original work, given the amount new
 > and unique changes herein objectively makes this repository transformative.
 > This statement does NOT (currently) apply to any other repositories
