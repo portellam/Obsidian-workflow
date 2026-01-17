@@ -1,0 +1,40 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# Top-most EditorConfig file
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Compiled languages
+[*.{java,cpp,cs,go,swift,kotlin,scala,rust,dart}]
+indent_style = space
+indent_size = 2
+max_line_length = 100
+
+# Database languages
+[*.{sql}]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+# Markup languages
+[*.{html,css,json,yml,xml,md}]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+# Scripted languages
+[*.{js,py,rb,php,lu,sh,cs}]
+indent_style = space
+indent_size = 2
+max_line_length = 80
+
+# Data Format and other Scripted languages
+[*.{ts,coffee,elixir,pl}]
+indent_style = space
+indent_size = 2
+max_line_length = 80
