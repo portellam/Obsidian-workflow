@@ -36,9 +36,8 @@ obsidian-workflow TODO
   - Related: https://github.com/phibr0/obsidian-commander/issues/81
 
 # Backlog
-- [ ] apply original license to work that isn't changed:
-  - [ ] scripts
-    - [ ] place within folder.
+- [x] apply original license to work that isn't changed:
+  - [x] scripts
 - [ ] things to change to apply own license
   - [ ] content of README
   - [ ] templates?
