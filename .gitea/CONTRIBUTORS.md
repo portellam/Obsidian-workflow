@@ -3,7 +3,8 @@
 [![Contributors][CONTRIBUTORS-COUNT-URL]][CONTRIBUTORS-URL]
 
 <!-- TEXT -->
-- [Alex Portell][ALEX-PORTELL-URL01]
+- Fork repository owner: [Alex Portell][ALEX-PORTELL-URL01]
+- Original repo author: [Mathis Gauthey][ORIGINAL-AUTHOR-URL01]
 
 ---
 
@@ -14,6 +15,7 @@
 
 <!-- LINKS -->
 [ALEX-PORTELL-URL01]: https://github.com/portellam
+[ORIGINAL-AUTHOR-URL01]: https://github.com/mathisgauthey
 [CONTRIBUTORS-URL]: ./
 
   <!-- GitHub compatible (uncomment as needed) -->

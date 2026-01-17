@@ -158,7 +158,7 @@ Consecutive version of `1.0.7` from original repository, as of 2025-04-05.
 - [x] Forked from the original author's repository.
 - [x] Modified customization.
 - [x] Plugins: modified settings.
-- Refactored documentation files.
+- [x] Refactored documentation files.
 - [x] Refactored README.
 - [x] Renamed folders, for better consistency.
 
