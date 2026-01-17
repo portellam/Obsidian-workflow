@@ -71,6 +71,8 @@ We follow the [Semantic Versioning 2.0.0](http://semver.org/) format.
 - [x] Periodic note folders:
   - Atomized folders given type.
 
+- [ ] Update README with own wording, to best of my ability.
+
 - [ ] Default files?
   - [ ] Kanban board?
     - The original repo had Passions Backlog.
@@ -121,6 +123,11 @@ Consecutive version of `1.0.7` from original repository, as of 2025-04-05.
 > [!WARNING]
 > For themes to work properly, please update your copy of Obsidian to the latest version available.
 
+> [!WARNING]
+> **If *Todoist* is not setup, the plugin will cause the vault to fail to**
+> **load.** It is recommended one disables this plugin if it is to not be used.
+> One may have to first load in Restricted Mode, then disable Restricted Mode,
+> and finally disable said plugin.
 
 ### Added
 - [x] Added core plugins:
@@ -134,14 +141,26 @@ Consecutive version of `1.0.7` from original repository, as of 2025-04-05.
   - *Word Count*
   - *Workspaces*
 
-- [x] Renamed numbered folders, prefixed `0`.
+- [x] Renamed folders:
+  - Prefixed numbered folders with `0`.
+  - Folders directly used are prefixed with a number `##` and delimited by a
+  hyphen ` - `. These folders are meant to be eye-catching and to be frequently
+  used. Arbitrarily ordered folders by use case.
+  - Folders not indirectly used are in lowercase, and appear towards the bottom
+  of the vault.
 
 - [x] Renamed folders (including, but not limited to):
   - Canvas
   - Scripts
   - Templates
 
+### Changes
+- [x] Forked from the original author's repository.
+- [x] Modified customization.
+- [x] Plugins: modified settings.
+- Refactored documentation files.
 - [x] Refactored README.
+- [x] Renamed folders, for better consistency.
 
 ### Deprecated
 - PARA tags.
@@ -173,6 +192,11 @@ Consecutive version of `1.0.7` from original repository, as of 2025-04-05.
   - [x] Updated links to referenced directories and files, given changes.
 
 - [x] Updated various plugins.
+
+
+
+## Disclaimer
+
 
 ---
 
