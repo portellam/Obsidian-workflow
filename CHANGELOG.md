@@ -9,7 +9,7 @@ Download from...
 <sup>→</sup>
 &nbsp;
 <a href="https://codeberg.org/portellam/obsidian-workflow/latest/releases">  <!-- CHANGEME -->
-  <img title="Codeberg" height="30" src="../.images/codeberg.org.png"/>
+  <img title="Codeberg" height="30" src="./.images/codeberg.org.png"/>
 </a>
 </br>
 </br>
@@ -17,7 +17,7 @@ Download from...
 <sup>→</sup>
 &nbsp;
 <a href="https://gitea.com/portellam/obsidian-workflow/latest/releases">  <!-- CHANGEME -->
-  <img title="Gitea" height="30" src="../.images/gitea.com.png"/>
+  <img title="Gitea" height="30" src="./.images/gitea.com.png"/>
 </a>
 </br>
 </br>
@@ -25,7 +25,7 @@ Download from...
 <sup>→</sup>
 &nbsp;
 <a href="https://github.com/portellam/obsidian-workflow/latest/releases">  <!-- CHANGEME -->
-  <img title="GitHub" height="30" src="../.images/github.com.png"/>
+  <img title="GitHub" height="30" src="./.images/github.com.png"/>
 </a>
 
 ## Changelog
