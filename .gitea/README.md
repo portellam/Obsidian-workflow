@@ -271,7 +271,7 @@ See [LICENSE][LICENSE-URL] for more information.
 <!-- LINKS -->
 [ACKNOWLEDGEMENTS-LOGO-URL]: ../REFERENCES.md#logo
 [ACKNOWLEDGEMENTS-LOGO-AUTHOR-URL]: ../REFERENCES.md#logo-author
-[CHANGELOG-URL]: ./CHANGELOG.md
+[CHANGELOG-URL]: ../CHANGELOG.md
 [CONTRIBUTING-URL]: ./CONTRIBUTING.md
 [CONTRIBUTORS-URL]: ./CONTRIBUTORS.md
 [INSTALL-URL]: https://github.com/portellam/Obsidian-workflow-docs/blob/master/docs/getting-started/installation.md
