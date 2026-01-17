@@ -1,26 +1,26 @@
 {
-    "branches": [
-        "main"
+  "branches": [
+    "master"
+  ],
+  "tagFormat": "${version}",
+  "debug": true,
+  "ci": true,
+  "dryRun": false,
+  "plugins": [
+    [
+      "@semantic-release/commit-analyzer",
+      {
+        "preset": "conventionalcommits"
+      }
     ],
-    "tagFormat": "${version}",
-    "debug": true,
-    "ci": true,
-    "dryRun": false,
-    "plugins": [
-        [
-            "@semantic-release/commit-analyzer",
-            {
-                "preset": "conventionalcommits"
-            }
-        ],
-        [
-            "@semantic-release/release-notes-generator",
-            {
-                "preset": "conventionalcommits"
-            }
-        ],
-        [
-            "@semantic-release/github"
-        ]
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        "preset": "conventionalcommits"
+      }
+    ],
+    [
+      "@semantic-release/github"
     ]
+  ]
 }
