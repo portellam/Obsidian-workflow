@@ -143,11 +143,7 @@ starting-point.
 See [CHANGELOG.md][CHANGELOG-URL] for more details.
 
 ## Why
-<!-- Gitea version -->
-<!-- [[../.images/example.png]] -->
-
-<!-- GitHub version -->
-![[../.images/example.png]]
+![Screenshot of Obsidian, the vault template open to its default layout.][WHY-URL00]
 
 - 🎨 Beautiful design using
 [AnuPpuccin: Personal theme for Obsidian][WHY-URL01].
@@ -288,6 +284,7 @@ See [LICENSE][LICENSE-URL] for more information.
 [SUPPORT-URL]: ./SUPPORT.md
 [SUPPORT-KO-FI-LOGO-URL]: ../.images/support_ko-fi.svg
 [USAGE-URL]: https://github.com/portellam/Obsidian-workflow-docs/tree/master/docs/usage
+[WHY-URL00]: ../.images/example.png
 [WHY-URL01]: https://github.com/AnubisNekhet/anuppuccin
 [WHY-URL02]: https://fortelabs.com/blog/para/
 [WHY-URL03]: https://gettingthingsdone.com/
