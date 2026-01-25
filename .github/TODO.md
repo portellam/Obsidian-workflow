@@ -4,6 +4,9 @@ obsidian-workflow TODO
 - Make it easy to journal.
   - Provide templates, with instructions, to enable a user to get to work.
 
+- Make it easy to undo and redo backend changes.
+  - `.gitignore` and commands to redo ignored files, such as `data.json` and others.
+
 - Make it easy to be organized.
   - Have the app organize notes for the user.
   - Given metadata, sort files into folders automatically.
@@ -28,7 +31,7 @@ obsidian-workflow TODO
 - Q: Given the periodic note templates' layouts (Habits, Kanban Boards, Tasks, Projects), how may we best implement Zettelkasten?
 - Q: Should we expect the user to use "Periodic Notes," or use an untitled note for journaling?
   - [ ] demonstrate how to use Periodic Notes
-  - [ ] explain the pros/cons of Periodic Notes, how it 
+  - [ ] explain the pros/cons of Periodic Notes, how it works?
 
 # Known Issues
 
@@ -152,7 +155,7 @@ obsidian-workflow TODO
   - [ ] Weekly
   - [ ] Monthly
   - [ ] Quarterly
-  - [ ] Yearly 
+  - [ ] Yearly
 
 - [x] Setup themes.
   - Find theme with good visibility.
@@ -182,7 +185,7 @@ obsidian-workflow TODO
 
 - `.gitignore`
   - Does track:
-    - Plugin configuration and state files: `data.json`, `manifest.json`	
+    - Plugin configuration and state files: `data.json`, `manifest.json`
   - Does NOT track:
     - Auto generated files, such as `main.js`.
 
@@ -198,7 +201,7 @@ obsidian-workflow TODO
 - Plugins
   - Installed more core plugins.
   - Updated configurations of various plugins. #FIXME
-	
+
 - Ribbons (left pane icons):
   - Organized based on (best guess) of frequency of use.
   - Added [Ribbon dividers]()
@@ -217,7 +220,7 @@ obsidian-workflow TODO
 - Scripts:
   - Copied original repository's `LICENSE.md` to scripts.
   - Updated paths.
- 
+
 - Snippets:
   - LCARS (Library Computer Access Retrieval System) from *Star Trek: The Next Generation.* [Link](https://old.reddit.com/r/ObsidianMD/comments/1dafwb7/i_have_a_problem_leave_me_alone_with_a_ui_and/),  [Archive]()
 
